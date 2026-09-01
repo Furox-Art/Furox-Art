@@ -1,11 +1,11 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=200&section=header&text=Furox&fontSize=75&fontColor=ffffff&animation=fadeIn&desc=Scientific%20repos%20from%20scratch%20—%20readable,%20tested,%20zero%20deps&descAlignY=75&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=200&section=header&text=Furox&fontSize=75&fontColor=ffffff&animation=fadeIn&desc=Scientific%20repos%20from%20scratch,%20readable,%20tested,%20zero%20deps&descAlignY=75&descAlign=50" width="100%"/>
 
-### hey I'm furox
+### hey I'm Furox
 
-Building **scientific-computing-system**: pure-Python science from scratch — 24 modules, zero deps, 2400+ tests.
-Building **axiomize**: idea → rigorous mathematical model — 15 lenses, 10 packs, 10 benchmark reports.
+Building **scientific-computing-system**: pure-Python science from scratch, 24 modules, zero deps, 2400+ tests.
+Building **axiomize**: idea → rigorous mathematical model, 15 lenses, 10 packs, 10 benchmark reports.
 
-scientific-computing-system helps **students, researchers, and builders** create better science with readable code, not black boxes — with numerical methods, stats, ML, and hypothesis generation you can open line by line.
+scientific-computing-system helps **students, researchers, and builders** create better science with readable code, not black boxes, with numerical methods, stats, ML, and hypothesis generation you can open line by line.
 
 scientific-computing-system v2 is focused on NumPy/SciPy speed, C accelerators, and 41 modules for production use.
 
@@ -22,7 +22,7 @@ scientific-computing-system v2 is focused on NumPy/SciPy speed, C accelerators, 
 
 **scientific-computing-system** is a pure-Python scientific platform: 24 modules, zero runtime dependencies, 100% branch coverage.
 
-It focuses on the details that make science feel real: readable algorithms, tested edge cases, and auditable math — from QR via Householder (1958) to mini-GPT with its own autograd.
+It focuses on the details that make science feel real: readable algorithms, tested edge cases, and auditable math, from QR via Householder (1958) to mini-GPT with its own autograd.
 
 - 🎛 Quantum — single/multi-qubit, Bell/GHZ, entanglement
 - 📈 Stats — t-tests, ANOVA, bootstrap CIs, power analysis, time-series
