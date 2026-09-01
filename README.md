@@ -9,7 +9,11 @@ scientific-computing-system helps **students, researchers, and builders** create
 
 scientific-computing-system v2 is focused on NumPy/SciPy speed, C accelerators, and 41 modules for production use.
 
-
+[![SCIENTIFIC](https://img.shields.io/badge/SCIENTIFIC-0a0a0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Furox-Art/scientific-computing-system)
+[![REPOSITORY](https://img.shields.io/badge/REPOSITORY-1a1a2e?style=for-the-badge)](https://github.com/Furox-Art/scientific-computing-system)
+[![AXIOMIZE](https://img.shields.io/badge/AXIOMIZE-6a5acd?style=for-the-badge)](https://github.com/Furox-Art/axiomize)
+[![SPONSOR](https://img.shields.io/badge/SPONSOR-2d3436?style=for-the-badge&logo=heart&logoColor=white)](https://github.com/sponsors/Furox-Art)
+[![GITHUB%20SPONSORS](https://img.shields.io/badge/GITHUB%20SPONSORS-e84393?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/Furox-Art)
 
 ---
 
