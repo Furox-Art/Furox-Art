@@ -24,12 +24,12 @@ scientific-computing-system v2 is focused on NumPy/SciPy speed, C accelerators, 
 
 It focuses on the details that make science feel real: readable algorithms, tested edge cases, and auditable math, from QR via Householder (1958) to mini-GPT with its own autograd.
 
-- 🎛 Quantum — single/multi-qubit, Bell/GHZ, entanglement
-- 📈 Stats — t-tests, ANOVA, bootstrap CIs, power analysis, time-series
-- 🤖 ML — PCA, k-means, k-NN, trees, logistic/linear, ensembles, mini-GPT
-- 🌊 Signals — radix-2 FFT, Butterworth, STFT, Haar wavelets
-- ⏱ Solvers — RK4/RK45 + implicit stiff (backward Euler, Crank–Nicolson)
-- 🧮 Math — incomplete gamma/beta, LU/QR/Cholesky, Monte Carlo, symbolic diff, fractals
+- Quantum: single/multi-qubit, Bell/GHZ, entanglement
+- Stats: t-tests, ANOVA, bootstrap CIs, power analysis, time-series
+- ML: PCA, k-means, k-NN, trees, logistic/linear, ensembles, mini-GPT
+- Signals: radix-2 FFT, Butterworth, STFT, Haar wavelets
+- Solvers: RK4/RK45 + implicit stiff (backward Euler, Crank-Nicolson)
+- Math: incomplete gamma/beta, LU/QR/Cholesky, Monte Carlo, symbolic diff, fractals
 
 ![PyPI](https://img.shields.io/pypi/v/scientific-computing-system.svg)
 ![CI](https://github.com/Furox-Art/scientific-computing-system/actions/workflows/tests.yml/badge.svg)
