@@ -3,7 +3,7 @@
 ### hey I'm Furox
 
 Building **scientific-computing-system**: pure-Python science from scratch, 24 modules, zero deps, 2400+ tests.
-Building **axiomize**: idea → rigorous mathematical model, 15 lenses, 10 packs, 10 benchmark reports.
+Building **axiomize**: idea → rigorous mathematical model, 15 lenses, 12 packs, 12 benchmark reports.
 
 scientific-computing-system helps **students, researchers, and builders** create better science with readable code, not black boxes, with numerical methods, stats, ML, and hypothesis generation you can open line by line.
 
@@ -32,7 +32,7 @@ It focuses on the details that make science feel real: readable algorithms, test
 
 ### axiomize
 
-**axiomize** is a skill that turns any idea into a rigorous mathematical model: decomposition, parameter tables, 15-perspective modeling, validation code and falsifiability criteria. Ships 11 worked examples, 10 benchmark reports and 6→10 domain packs.
+**axiomize** is a skill that turns any idea into a rigorous mathematical model: decomposition, parameter tables, 15-perspective modeling, validation code and falsifiability criteria. Ships 12 worked examples, 12 benchmark reports and 12 domain packs.
 
 [Docs](https://furox-art.github.io/axiomize/) · [Packs](https://github.com/Furox-Art/axiomize/tree/main/packs) · [Examples](https://github.com/Furox-Art/axiomize/tree/main/examples)
 
