@@ -24,6 +24,8 @@ It focuses on the details that make science feel real: readable algorithms, test
 - Solvers: RK4/RK45 + implicit stiff (backward Euler, Crank-Nicolson)
 - Math: incomplete gamma/beta, LU/QR/Cholesky, Monte Carlo, symbolic diff, fractals
 
+<img src="https://raw.githubusercontent.com/Furox-Art/scientific-computing-system/main/assets/social_preview.png" width="100%" alt="scientific-computing-system preview"/>
+
 ![PyPI](https://img.shields.io/pypi/v/scientific-computing-system.svg)
 ![CI](https://github.com/Furox-Art/scientific-computing-system/actions/workflows/tests.yml/badge.svg)
 ![Coverage](https://codecov.io/gh/Furox-Art/scientific-computing-system/branch/main/graph/badge.svg)
@@ -39,6 +41,8 @@ It focuses on the details that make science feel real: readable algorithms, test
 ### scientific-computing-system-2.0
 
 The same ideas rebuilt on NumPy/SciPy/pandas/matplotlib: 42 modules, SDE ensembles, Bayesian optimization, sklearn-compatible estimators, Array API namespace, 100% coverage. Adds Bayes, chaos, finance, geometry and RL.
+
+<img src="https://raw.githubusercontent.com/Furox-Art/scientific-computing-system-2.0/main/docs/assets/promo_hero.png" width="100%" alt="scientific-computing-system-2.0 preview"/>
 
 ![PyPI](https://img.shields.io/pypi/v/scientific-computing-system-2.0.svg)
 ![CI](https://github.com/Furox-Art/scientific-computing-system-2.0/actions/workflows/tests.yml/badge.svg)
