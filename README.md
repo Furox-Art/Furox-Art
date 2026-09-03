@@ -2,20 +2,18 @@
 
 ### hey I'm Furox
 
-Building **scientific-computing-system**: pure-Python science from scratch, 24 modules, zero deps, 2400+ tests.
-Building **axiomize**: idea → rigorous mathematical model, 15 lenses, 12 packs, 12 benchmark reports.
+Building **scientific-computing-system**: pure-Python science from scratch, 22 modules, zero deps, 2,300+ tests.
+Building **axiomize**: idea → rigorous mathematical model, 15 lenses, 12 packs, 18 worked examples.
 
 scientific-computing-system helps **students, researchers, and builders** create better science with readable code, not black boxes, with numerical methods, stats, ML, and hypothesis generation you can open line by line.
 
-scientific-computing-system v2 is focused on NumPy/SciPy speed, C accelerators, and 41 modules for production use.
-
-
+scientific-computing-system-2.0 is the same ideas rebuilt on NumPy/SciPy/pandas/matplotlib for production use: 42 modules, 1,500+ tests, 100% coverage.
 
 ---
 
 ### scientific-computing-system
 
-**scientific-computing-system** is a pure-Python scientific platform: 24 modules, zero runtime dependencies, 100% branch coverage.
+**scientific-computing-system** is a pure-Python scientific platform: 22 modules, zero runtime dependencies, 100% statement + branch coverage enforced as a CI gate.
 
 It focuses on the details that make science feel real: readable algorithms, tested edge cases, and auditable math, from QR via Householder (1958) to mini-GPT with its own autograd.
 
@@ -32,15 +30,20 @@ It focuses on the details that make science feel real: readable algorithms, test
 
 ### axiomize
 
-**axiomize** is a skill that turns any idea into a rigorous mathematical model: decomposition, parameter tables, 15-perspective modeling, validation code and falsifiability criteria. Ships 12 worked examples, 12 benchmark reports and 12 domain packs.
+**axiomize** is a skill that turns any idea into a rigorous mathematical model: decomposition, parameter tables, 15-perspective modeling, validation code and falsifiability criteria. Ships 18 worked examples, 12 benchmark reports and 12 domain packs.
+
+![CI](https://github.com/Furox-Art/axiomize/actions/workflows/ci.yml/badge.svg)
 
 [Docs](https://furox-art.github.io/axiomize/) · [Packs](https://github.com/Furox-Art/axiomize/tree/main/packs) · [Examples](https://github.com/Furox-Art/axiomize/tree/main/examples)
 
-### scientific-computing
+### scientific-computing-system-2.0
 
-The same ideas rebuilt on NumPy/SciPy/pandas/matplotlib with C accelerators: 41 modules, SDE ensembles, Bayesian optimization, 100% coverage. Adds Bayes, chaos, finance, geometry and RL.
+The same ideas rebuilt on NumPy/SciPy/pandas/matplotlib: 42 modules, SDE ensembles, Bayesian optimization, sklearn-compatible estimators, Array API namespace, 100% coverage. Adds Bayes, chaos, finance, geometry and RL.
 
-[Docs](https://furox-art.github.io/scientific-computing/) · [PyPI](https://pypi.org/project/scientific-computing-system-2.0/)
+![PyPI](https://img.shields.io/pypi/v/scientific-computing-system-2.0.svg)
+![CI](https://github.com/Furox-Art/scientific-computing-system-2.0/actions/workflows/tests.yml/badge.svg)
+
+[Docs](https://furox-art.github.io/scientific-computing-system-2.0/) · [PyPI](https://pypi.org/project/scientific-computing-system-2.0/)
 
 ---
 
