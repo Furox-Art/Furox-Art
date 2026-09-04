@@ -38,41 +38,10 @@
 
 ---
 
-## How the projects connect
-
-```text
-idea
-  ↓
-Axiomize
-  ↓
-rigorous mathematical model
-  ↓
-scientific-computing-system / scientific-computing-system-2.0
-  ↓
-tested computation
-```
-
-```text
-AI implementation plan
-  ↓
-Plan Auditor
-  ↓
-sealed criteria + deterministic verification + evidence
-  ↓
-verified completion
-```
-
-Together, the repositories focus on one theme: making technical work easier to inspect, test, reproduce, and challenge instead of treating models or agent output as black boxes.
-
----
-
-## Engineering principles
-
-- **Auditability over black boxes** — important behavior should be inspectable and testable.
-- **Behavior-first verification** — checks should demonstrate what the software actually does.
-- **Explicit assumptions** — models and systems should expose constraints and failure conditions.
-- **Reproducibility** — code, tests, and documentation should make results repeatable.
-- **Minimal hidden machinery** — prefer clear mechanisms over unnecessary abstraction.
+<p align="center">
+  <strong>Current focus</strong><br>
+  scientific computing · mathematical modeling · AI agent verification · reproducible research software
+</p>
 
 <details>
 <summary><strong>Stack</strong></summary>
