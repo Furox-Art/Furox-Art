@@ -1,7 +1,7 @@
-<img src="assets/profile-banner.svg" width="100%" alt="Furox — Scientific computing, mathematical modeling, AI verification"/>
+<img src="assets/profile-banner.svg" width="100%" alt="Furox — Scientific computing, mathematical modeling, AI reasoning and verification"/>
 
 <p align="center">
-  <strong>Independent researcher & developer building rigorous, auditable systems for scientific computing, mathematical modeling, and AI verification.</strong><br>
+  <strong>Independent researcher & developer building rigorous, auditable systems for scientific computing, mathematical modeling, AI reasoning, and verification.</strong><br>
   Readable implementations · deterministic tests · explicit assumptions · reproducible workflows
 </p>
 
@@ -10,6 +10,13 @@
 ## Projects
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/Furox-Art/quantum-reasoning-skill">Quantum Reasoning Skill</a></h3>
+<p>A model-agnostic, quantum-inspired reasoning skill that keeps multiple genuinely different possibilities alive, verifies and compares them, suppresses weak paths, revives useful alternatives when evidence changes, and selects the best-supported result only at the end. It changes the reasoning procedure without retraining the model and does not require quantum computation.</p>
+<p><code>multi-branch reasoning</code> · <code>independent verification</code> · <code>dynamic compute allocation</code> · <code>branch revival</code></p>
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Furox-Art/plan-auditor">plan-auditor</a></h3>
@@ -40,7 +47,7 @@
 
 <p align="center">
   <strong>Current focus</strong><br>
-  scientific computing · mathematical modeling · AI agent verification · reproducible research software
+  scientific computing · mathematical modeling · quantum-inspired AI reasoning · AI agent verification · reproducible research software
 </p>
 
 <details>
