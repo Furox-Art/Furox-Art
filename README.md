@@ -7,6 +7,8 @@
 
 ---
 
+[![](https://komarev.com/ghpvc/?username=Furox-Art&color=blue&label=Profile%20Views)](https://github.com/Furox-Art)
+
 ## Public Projects
 
 <table>
@@ -56,3 +58,4 @@
 `Python 3.10+` · `NumPy` · `SciPy` · `pandas` · `Matplotlib` · `SymPy` · `statsmodels` · `NetworkX` · `Z3` · `CVXPY` · `CasADi` · `pytest` · `mypy --strict` · `ruff` · `GitHub Actions` · optional `PyMC` / `JAX` / `FEniCS` / `CuPy`
 
 </details>
+
