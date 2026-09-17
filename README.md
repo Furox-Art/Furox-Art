@@ -1,11 +1,5 @@
 <img src="assets/profile-banner.svg" width="100%" alt="Furox — Scientific computing, mathematical modeling, AI reasoning and verification"/>
 
-<h1>Hi, I'm Furox</h1>
-
-<p align="left">
-  <samp><a href="https://github.com/Furox-Art?tab=repositories">repositories & projects</a></samp>
-</p>
-
 <p align="center">
   <strong>Independent researcher & developer building rigorous, auditable systems for scientific computing, mathematical modeling, AI reasoning, and verification.</strong><br>
   Reproducible computation · explicit assumptions · deterministic verification · falsifiable models
@@ -13,18 +7,7 @@
 
 ---
 
-- Independent researcher & developer — scientific computing, mathematical modeling, AI reasoning & verification
-- Currently building: quantum-inspired reasoning, scientific modeling engines, agent verification, reproducible research software
-- Open to collaboration on open-source scientific software and verifiable AI systems
-- Feel free to ask me about numerical methods, modeling, or verification
-
-#### Let's get in touch! Feel free to DM me for discussion!
-
-[![GitHub Badge](https://img.shields.io/badge/-Furox--Art-181717?style=flat&labelColor=181717&logo=github&logoColor=white)](https://github.com/Furox-Art)
 [![](https://komarev.com/ghpvc/?username=Furox-Art&color=blue&label=Profile%20Views)](https://github.com/Furox-Art)
-[![](https://img.shields.io/github/followers/Furox-Art?label=GitHub%20Followers)](https://github.com/Furox-Art?tab=followers)
-<br />
-
 
 ## Public Projects
 
@@ -68,14 +51,6 @@
   <strong>Current focus</strong><br>
   scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
 </p>
-
-### Statistics
-
-<span><img height="150" src="https://github-readme-stats.vercel.app/api?username=Furox-Art&show_icons=true&count_private=true&cache_seconds=86400" /></span>
-<span><img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furox-Art&layout=compact&langs_count=6&cache_seconds=86400" /></span>
-<span><img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=Furox-Art" alt="Contribution streak" /></span>
-
-![Furox-Art trophies](https://github-profile-trophy.vercel.app/?username=Furox-Art&margin-w=20&no-bg=true)
 
 <details>
 <summary><strong>Technical stack</strong></summary>
