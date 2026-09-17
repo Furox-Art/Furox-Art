@@ -7,7 +7,7 @@
 
 ---
 
-[![](https://komarev.com/ghpvc/?username=Furox-Art&color=blue&label=Profile%20Views)](https://github.com/Furox-Art)
+
 
 ## Public Projects
 
