@@ -93,6 +93,16 @@ Merged pull requests in external repositories:
 <td>230</td>
 <td><a href="https://github.com/Dokploy/templates/pull/1171">#1171</a> — feat: add VersityGW template</td>
 </tr>
+<tr>
+<td><a href="https://github.com/issuerd/issuerd"><code>issuerd/issuerd</code></a></td>
+<td>22</td>
+<td><a href="https://github.com/issuerd/issuerd/pull/18">#18</a> — test: add proptest suites for issuerd-protocol parsers</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Movalabs-crew/mova-store"><code>Movalabs-crew/mova-store</code></a></td>
+<td>9</td>
+<td><a href="https://github.com/Movalabs-crew/mova-store/pull/408">#408</a> — Fix Stellar browser Uint8Array handling</td>
+</tr>
 </table>
 <p align="center">
   <strong>Current focus</strong><br>
