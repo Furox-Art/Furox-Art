@@ -47,6 +47,35 @@
 
 ---
 
+
+---
+
+## Open Source Contributions
+
+Merged pull requests in external repositories:
+
+<table>
+<tr>
+<th>Repository</th>
+<th>Stars</th>
+<th>Contribution</th>
+</tr>
+<tr>
+<td><a href="https://github.com/coollabsio/coolify"><code>coollabsio/coolify</code></a></td>
+<td>62.8k</td>
+<td><a href="https://github.com/coollabsio/coolify/pull/12066">#12066</a> — fix(api): respect <code>service_name</code> query param in application logs endpoint</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Mudlet/Mudlet"><code>Mudlet/Mudlet</code></a></td>
+<td>914</td>
+<td><a href="https://github.com/Mudlet/Mudlet/pull/10780">#10780</a> — fix: keep Lua autocomplete popup from stealing editor focus</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Dokploy/templates"><code>Dokploy/templates</code></a></td>
+<td>230</td>
+<td><a href="https://github.com/Dokploy/templates/pull/1171">#1171</a> — feat: add VersityGW template</td>
+</tr>
+</table>
 <p align="center">
   <strong>Current focus</strong><br>
   scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
