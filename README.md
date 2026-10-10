@@ -43,7 +43,25 @@
 <p><code>pure Python</code> · <code>zero runtime dependencies</code> · <code>from-scratch algorithms</code> · <code>numerical science</code> · <code>hypothesis generation</code></p>
 </td>
 </tr>
-</table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Furox-Art/eq-layer">eq-layer</a></h3>
+<p>A control layer that decides how an LLM should speak before it speaks.</p>
+<p><code>LLM control</code> &middot; <code>speech gating</code> &middot; <code>Python</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Furox-Art/nomosguard">nomosguard</a></h3>
+<p>Deterministic security reasoning core: hash-chained evidence ledger, attack-path rule engine, fail-closed policy gate. LLMs produce evidence and explain decisions; they never cross the decision boundary.</p>
+<p><code>security reasoning</code> &middot; <code>hash-chained evidence</code> &middot; <code>fail-closed policy</code></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/Furox-Art/scientific-toolkit">scientific-toolkit</a></h3>
+<p>A unified open-source scientific toolkit integrating seven research and AI software projects through the Model Context Protocol (MCP).</p>
+<p><code>MCP</code> &middot; <code>seven-project integration</code> &middot; <code>scientific tooling</code></p>
+</td>
+</tr></table>
 
 ---
 
