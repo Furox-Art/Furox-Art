@@ -5,9 +5,81 @@
   Reproducible computation · explicit assumptions · deterministic verification · falsifiable models
 </p>
 
+<p align="center">
+  <a href="https://github.com/Furox-Art"><img src="https://img.shields.io/badge/GitHub-Furox--Art-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://x.com/FuroxArt"><img src="https://img.shields.io/badge/X-@FuroxArt-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://pypi.org/project/scientific-computing-system/"><img src="https://img.shields.io/badge/PyPI-scientific--computing--system-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI"/></a>
+  <img src="https://img.shields.io/github/followers/Furox-Art?style=flat-square&logo=github&label=Followers" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/Furox-Art?style=flat-square&logo=github&label=Stars" alt="Stars"/>
+</p>
+
 ---
 
+## About
 
+Independent developer and researcher working across **AI systems** and **scientific computing**, mostly on software where the reasoning is explicit rather than implicit: numerical algorithms you can read end to end, models whose assumptions are written down, and AI agents whose claims are checked by deterministic machinery instead of trust.
+
+The work runs along two threads:
+
+- **Scientific computing from first principles** — from-scratch numerical libraries with zero runtime dependencies, where the algorithm *is* the documentation, alongside a NumPy/SciPy production line for accelerated and optionally GPU-backed work.
+- **Deterministic verification for AI** — turning model output and agent plans into sealed contracts, hash-chained evidence, and PASS / FAIL gates, so that *done* means *here is the command output that proves it*.
+
+Everything is built openly and tested: property, fuzz, oracle, cross-platform, and benchmark-regression suites run in CI, with provenance attestations carried on published artifacts where the packaging supports it.
+
+---
+
+## Featured Projects
+
+| Project | ⭐ | Stack | What it does |
+| --- | --- | --- | --- |
+| [**scientific-computing-system**](https://github.com/Furox-Art/scientific-computing-system) | 16 | Python · MIT | Pure-Python computational science with **zero runtime dependencies**: 35 modules exporting 505 names — linear algebra, ODE/PDE solvers, quadrature, Monte Carlo/MCMC, statistics, signal processing, quantum simulation, uncertainty & sensitivity analysis, dimensional analysis, and falsifiable hypothesis generation. Optional NumPy/SciPy backends are opt-in extras. |
+| [**axiomize**](https://github.com/Furox-Art/axiomize) | 4 | Python · MIT | Reproducible scientific modeling engine and agent skill built around a versioned **Model IR**: explicit units, dimensional and numerical validation, calibration, sensitivity and uncertainty analysis, causal/Bayesian inference, and portable export through CLI, REST, and MCP. |
+| [**plan-auditor**](https://github.com/Furox-Art/plan-auditor) | 1 | Python · MIT | Deterministic, LLM-free verification supervisor for AI coding agents: sealed execution contracts, SHA-256 hash-chained evidence, STRIPS/PDDL reachability and exact recompilation, and PASS / FAIL / UNKNOWN completion gating. |
+| [**nomosguard**](https://github.com/Furox-Art/nomosguard) | 0 | Python · Apache-2.0 | Deterministic security reasoning core: hash-chained evidence ledger, attack-path rule engine, and a fail-closed policy gate. LLMs produce evidence and explain decisions; they never cross the decision boundary. |
+| [**eq-layer**](https://github.com/Furox-Art/eq-layer) | 0 | Python · MIT | A control layer that decides how an LLM should speak before it speaks. |
+| [**quantum-reasoning-skill**](https://github.com/Furox-Art/quantum-reasoning-skill) | 1 | Python · MIT | Model-agnostic reasoning protocol for ambiguous, multi-step problems: maintain materially different candidate paths, verify them independently with evidence, detect shared assumptions and contradictions, reallocate compute, preserve dormant branches, and collapse only when one result is supported. Quantum-*inspired*, not quantum computing. |
+| [**scientific-toolkit**](https://github.com/Furox-Art/scientific-toolkit) | 0 | Python · Apache-2.0 | Unified open-source scientific toolkit integrating seven research and AI software projects through the **Model Context Protocol (MCP)**. |
+| [**scientific-computing-system-2.0**](https://github.com/Furox-Art/scientific-computing-system-2.0) | 2 | Python · MIT | The NumPy/SciPy/pandas production line: 40+ scientific domains, guided model fitting with uncertainty and held-out validation, residual diagnostics and reproducibility manifests, compiled C acceleration kernels with safe fallbacks, optional CuPy GPU execution, and scikit-learn-compatible estimators. |
+
+<p align="center"><em>Also maintained: <a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0">axiomize-quantum-skills-2.0</a> — the modeling engine plus the quantum-inspired multi-branch reasoning skill in one package.</em></p>
+
+<p align="center"><sub>Star counts, licenses, and PyPI releases are live GitHub / PyPI data, checked 12 October 2026. The project cards below describe each repository in depth and were written against earlier release tags.</sub></p>
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <img height="165" alt="Furox's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Furox-Art&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furox-Art&layout=compact&theme=github_dark&hide_border=true&langs_count=8"/>
+</p>
+
+<p align="center">
+  <img height="165" alt="Contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Furox-Art&theme=github-dark-blue&hide_border=true"/>
+</p>
+
+<p align="center">
+  <strong>At a glance</strong><br>
+  75 public repositories · 24 stars earned · 396 pull requests opened · 1.8k contributions tracked · 5 pull requests merged into external repositories
+</p>
+
+---
+
+## Technology Stack
+
+**Languages** — Python (primary, 3.10+), TypeScript, JavaScript, C
+
+**Scientific computing** — NumPy · SciPy · pandas · Matplotlib · SymPy · statsmodels · NetworkX
+
+**Formal methods & verification** — Z3 · CVXPY · CasADi · STRIPS/PDDL reachability · property-based and fuzz testing · cryptographic sealing
+
+**AI & agent systems** — Model Context Protocol (MCP) · Model IR · multi-branch reasoning · LLM control layers · fail-closed policy gates
+
+**Front-end & packaging** — React · Node.js · npm and PyPI distribution with provenance attestations
+
+**Quality & CI** — pytest (statement + branch coverage) · mypy `--strict` · ruff · pre-commit · GitHub Actions · codecov · benchmark-regression testing
+
+---
 
 ## Public Projects
 
@@ -66,6 +138,7 @@
 ---
 
 
+
 ---
 
 ## Open Source Contributions
@@ -116,3 +189,27 @@ Merged pull requests in external repositories:
 
 </details>
 
+---
+
+## Contact & Links
+
+The most reliable way to reach me is through the repositories themselves — issues and discussions in the project you are asking about get answered fastest.
+
+<p align="center">
+  <a href="https://github.com/Furox-Art"><img src="https://img.shields.io/badge/GitHub-Furox--Art-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://x.com/FuroxArt"><img src="https://img.shields.io/badge/X-@FuroxArt-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://pypi.org/project/scientific-computing-system/"><img src="https://img.shields.io/badge/PyPI-scientific--computing--system-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"/></a>
+  <a href="https://furox-art.github.io/scientific-computing-system/"><img src="https://img.shields.io/badge/Docs-furox--art.github.io-0a7ea4?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation"/></a>
+</p>
+
+| Channel | Details |
+| --- | --- |
+| **GitHub** | [@Furox-Art](https://github.com/Furox-Art) — 75 public repositories, issues and discussions open |
+| **X / Twitter** | [@FuroxArt](https://x.com/FuroxArt) |
+| **PyPI** | [scientific-computing-system](https://pypi.org/project/scientific-computing-system/) · [scientific-computing-system-2.0](https://pypi.org/project/scientific-computing-system-2.0/) · [axiomize](https://pypi.org/project/axiomize/) |
+| **Documentation** | [furox-art.github.io/scientific-computing-system](https://furox-art.github.io/scientific-computing-system/) |
+| **Citation** | `CITATION.cff` ships with every scientific repository, for citable releases |
+
+<p align="center">
+  <sub>Open source under MIT and Apache-2.0. Bug reports, correctness questions, and research ideas are welcome — prefer the repository's issue tracker or discussions so the context stays public and searchable.</sub>
+</p>
