@@ -60,7 +60,7 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 <p align="center">
   <strong>At a glance</strong><br>
-  75 public repositories · 24 stars earned · 396 pull requests opened · 1.8k contributions tracked · 5 pull requests merged into external repositories
+  84 public repositories · 31 stars earned · 451 pull requests opened · 1.9k contributions tracked · 20 pull requests merged into external repositories
 </p>
 
 ---
@@ -143,7 +143,7 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 ## Open Source Contributions
 
-Merged pull requests in external repositories:
+All 20 merged pull requests in repositories outside this account, highest-starred first:
 
 <table>
 <tr>
@@ -153,30 +153,107 @@ Merged pull requests in external repositories:
 </tr>
 <tr>
 <td><a href="https://github.com/coollabsio/coolify"><code>coollabsio/coolify</code></a></td>
-<td>62.8k</td>
-<td><a href="https://github.com/coollabsio/coolify/pull/12066">#12066</a> — fix(api): respect <code>service_name</code> query param in application logs endpoint</td>
+<td>63k</td>
+<td><a href="https://github.com/coollabsio/coolify/pull/12066">#12066</a> — fix(api): respect service_name query param in application logs endpoint</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pingdotgg/t3code"><code>pingdotgg/t3code</code></a></td>
+<td>27.9k</td>
+<td><a href="https://github.com/pingdotgg/t3code/pull/16838">#16838</a> — fix(server): a directory no longer resolves as the resource monitor binary</td>
+</tr>
+<tr>
+<td><a href="https://github.com/TabularisDB/tabularis"><code>TabularisDB/tabularis</code></a></td>
+<td>5.2k</td>
+<td><a href="https://github.com/TabularisDB/tabularis/pull/1076">#1076</a> — feat(command-palette): add a toggle editor word wrap command (closes #1036)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/libredb/libredb-studio"><code>libredb/libredb-studio</code></a></td>
+<td>1.2k</td>
+<td><a href="https://github.com/libredb/libredb-studio/pull/1637">#1637</a> — docs: add missing libSQL row to test-database table</td>
 </tr>
 <tr>
 <td><a href="https://github.com/Mudlet/Mudlet"><code>Mudlet/Mudlet</code></a></td>
-<td>914</td>
+<td>916</td>
 <td><a href="https://github.com/Mudlet/Mudlet/pull/10780">#10780</a> — fix: keep Lua autocomplete popup from stealing editor focus</td>
 </tr>
 <tr>
+<td><a href="https://github.com/vaadin/web-components"><code>vaadin/web-components</code></a></td>
+<td>584</td>
+<td><a href="https://github.com/vaadin/web-components/pull/13064">#13064</a> — docs: add online IDE reproduction link to bug report template</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Dokploy/templates"><code>Dokploy/templates</code></a></td>
-<td>230</td>
+<td>231</td>
 <td><a href="https://github.com/Dokploy/templates/pull/1171">#1171</a> — feat: add VersityGW template</td>
 </tr>
 <tr>
 <td><a href="https://github.com/issuerd/issuerd"><code>issuerd/issuerd</code></a></td>
-<td>22</td>
+<td>51</td>
 <td><a href="https://github.com/issuerd/issuerd/pull/18">#18</a> — test: add proptest suites for issuerd-protocol parsers</td>
 </tr>
 <tr>
+<td><a href="https://github.com/TheVicky1/Pact_OS"><code>TheVicky1/Pact_OS</code></a></td>
+<td>28</td>
+<td><a href="https://github.com/TheVicky1/Pact_OS/pull/554">#554</a> — feat(ui): add animated loading state to data export button</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Fristail27/vocab-bloom-hub"><code>Fristail27/vocab-bloom-hub</code></a></td>
+<td>14</td>
+<td><a href="https://github.com/Fristail27/vocab-bloom-hub/pull/598">#598</a> — i18n(pt): review the site interface texts</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Movalabs-crew/mova-store"><code>Movalabs-crew/mova-store</code></a></td>
-<td>9</td>
-<td><a href="https://github.com/Movalabs-crew/mova-store/pull/408">#408</a> — Fix Stellar browser Uint8Array handling</td>
+<td>11</td>
+<td><a href="https://github.com/Movalabs-crew/mova-store/pull/408">#408</a> — Fix/stellar browser uint8array</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nedpals/pwa-karaoke"><code>nedpals/pwa-karaoke</code></a></td>
+<td>8</td>
+<td><a href="https://github.com/nedpals/pwa-karaoke/pull/60">#60</a> — docs: add code of conduct and issue/PR templates</td>
+</tr>
+<tr>
+<td><a href="https://github.com/HafidIdrissi/Time-Tracker"><code>HafidIdrissi/Time-Tracker</code></a></td>
+<td>7</td>
+<td><a href="https://github.com/HafidIdrissi/Time-Tracker/pull/367">#367</a> — docs: add portable upgrade walkthrough</td>
+</tr>
+<tr>
+<td><a href="https://github.com/crazy-goat/xdbg"><code>crazy-goat/xdbg</code></a></td>
+<td>3</td>
+<td><a href="https://github.com/crazy-goat/xdbg/pull/124">#124</a> — fix: fall back to len(children) on malformed numchildren</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Finntegrate/tapio"><code>Finntegrate/tapio</code></a></td>
+<td>2</td>
+<td><a href="https://github.com/Finntegrate/tapio/pull/214">#214</a> — docs: define a status convention for specifications</td>
+</tr>
+<tr>
+<td><a href="https://github.com/hoslift/ranu.js"><code>hoslift/ranu.js</code></a></td>
+<td>2</td>
+<td><a href="https://github.com/hoslift/ranu.js/pull/215">#215</a> — docs: add bash and zsh autocompletion recipe</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Sall25/folio"><code>Sall25/folio</code></a></td>
+<td>2</td>
+<td><a href="https://github.com/Sall25/folio/pull/256">#256</a> — fix(ui): keep formula editor within the viewport on small screens</td>
+</tr>
+<tr>
+<td><a href="https://github.com/GDGCampusAEC/gdgc-aec-website"><code>GDGCampusAEC/gdgc-aec-website</code></a></td>
+<td>1</td>
+<td><a href="https://github.com/GDGCampusAEC/gdgc-aec-website/pull/49">#49</a> — perf(images): replace raw &lt;img&gt; with next/image across the site</td>
+</tr>
+<tr>
+<td><a href="https://github.com/protocorn/Clippy-vision_RAN_BY_GROK_BOT"><code>protocorn/Clippy-vision_RAN_BY_GROK_BOT</code></a></td>
+<td>1</td>
+<td><a href="https://github.com/protocorn/Clippy-vision_RAN_BY_GROK_BOT/pull/9">#9</a> — docs: add MCP setup guides for Claude Desktop and LM Studio</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ktrubilo9/edge-proxy"><code>ktrubilo9/edge-proxy</code></a></td>
+<td>0</td>
+<td><a href="https://github.com/ktrubilo9/edge-proxy/pull/65">#65</a> — test: cover public and operational HTTP endpoints</td>
 </tr>
 </table>
+
+<p align="center"><sub>Live GitHub data, verified through the search API on 16 October 2026. The counts in <em>At a glance</em> cover the whole account, not only these repositories.</sub></p>
 <p align="center">
   <strong>Current focus</strong><br>
   scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
