@@ -6,9 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Furox-Art"><img src="https://img.shields.io/badge/GitHub-Furox--Art-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://x.com/FuroxArt"><img src="https://img.shields.io/badge/X-@FuroxArt-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
-  <a href="https://pypi.org/project/scientific-computing-system/"><img src="https://img.shields.io/badge/PyPI-scientific--computing--system-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI"/></a>
   <img src="https://img.shields.io/github/followers/Furox-Art?style=flat-square&logo=github&label=Followers" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/Furox-Art?style=flat-square&logo=github&label=Stars" alt="Stars"/>
 </p>
