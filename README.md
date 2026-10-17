@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/Furox-Art?style=flat-square&logo=github&label=Followers" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/Furox-Art?style=flat-square&logo=github&label=Stars" alt="Stars"/>
 </p>
 
