@@ -37,10 +37,6 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 | [**nomosguard**](https://github.com/Furox-Art/nomosguard) | 0 | Python · Apache-2.0 | Deterministic security reasoning with a hash-chained evidence ledger, rule-based attack-path inference, and a fail-closed policy gate. LLMs may supply evidenced claims and explanations, but cannot make the security decision. |
 | [**scientific-toolkit**](https://github.com/Furox-Art/scientific-toolkit) | 0 | Python · Apache-2.0 | MCP gateway integrating seven independent research and AI software repositories over local stdio and authenticated HTTP. Documented deployment checks validate integration plumbing, not scientific correctness or external client sign-in. |
 
-<p align="center"><em>Also maintained: <a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0">axiomize-quantum-skills-2.0</a> — the modeling engine plus the quantum-inspired multi-branch reasoning skill in one package.</em></p>
-
-<p align="center"><sub>Stars and licenses checked against GitHub on 17 October 2026; star counts are a point-in-time snapshot. Descriptions checked against each project’s main README.</sub></p>
-
 ---
 
 ## Open Source Contributions
