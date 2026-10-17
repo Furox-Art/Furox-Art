@@ -221,35 +221,3 @@ All 20 merged pull requests in repositories outside this account, highest-starre
   <strong>Current focus</strong><br>
   scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
 </p>
-
-<details>
-<summary><strong>Technical stack</strong></summary>
-
-`Python 3.10+` · `NumPy` · `SciPy` · `pandas` · `Matplotlib` · `SymPy` · `statsmodels` · `NetworkX` · `Z3` · `CVXPY` · `CasADi` · `pytest` · `mypy --strict` · `ruff` · `GitHub Actions` · optional `PyMC` / `JAX` / `FEniCS` / `CuPy`
-
-</details>
-
----
-
-## Contact & Links
-
-The most reliable way to reach me is through the repositories themselves — issues and discussions in the project you are asking about get answered fastest.
-
-<p align="center">
-  <a href="https://github.com/Furox-Art"><img src="https://img.shields.io/badge/GitHub-Furox--Art-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://x.com/FuroxArt"><img src="https://img.shields.io/badge/X-@FuroxArt-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-  <a href="https://pypi.org/project/scientific-computing-system/"><img src="https://img.shields.io/badge/PyPI-scientific--computing--system-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"/></a>
-  <a href="https://furox-art.github.io/scientific-computing-system/"><img src="https://img.shields.io/badge/Docs-furox--art.github.io-0a7ea4?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation"/></a>
-</p>
-
-| Channel | Details |
-| --- | --- |
-| **GitHub** | [@Furox-Art](https://github.com/Furox-Art) — 75 public repositories, issues and discussions open |
-| **X / Twitter** | [@FuroxArt](https://x.com/FuroxArt) |
-| **PyPI** | [scientific-computing-system](https://pypi.org/project/scientific-computing-system/) · [scientific-computing-system-2.0](https://pypi.org/project/scientific-computing-system-2.0/) · [axiomize](https://pypi.org/project/axiomize/) |
-| **Documentation** | [furox-art.github.io/scientific-computing-system](https://furox-art.github.io/scientific-computing-system/) |
-| **Citation** | `CITATION.cff` ships with every scientific repository, for citable releases |
-
-<p align="center">
-  <sub>Open source under MIT and Apache-2.0. Bug reports, correctness questions, and research ideas are welcome — prefer the repository's issue tracker or discussions so the context stays public and searchable.</sub>
-</p>
