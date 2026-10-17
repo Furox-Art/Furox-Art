@@ -151,8 +151,3 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 </tr>
 </table>
 
-<p align="center"><sub>Live GitHub data, verified through the search API on 16 October 2026.</sub></p>
-<p align="center">
-  <strong>Current focus</strong><br>
-  scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
-</p>
