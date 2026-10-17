@@ -47,40 +47,6 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 ---
 
-## GitHub Activity
-
-<p align="center">
-  <img height="165" alt="Furox's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Furox-Art&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Furox-Art&layout=compact&theme=github_dark&hide_border=true&langs_count=8"/>
-</p>
-
-<p align="center">
-  <img height="165" alt="Contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Furox-Art&theme=github-dark-blue&hide_border=true"/>
-</p>
-
-<p align="center">
-  <strong>At a glance</strong><br>
-  84 public repositories · 31 stars earned · 451 pull requests opened · 1.9k contributions tracked · 20 pull requests merged into external repositories
-</p>
-
----
-
-## Technology Stack
-
-**Languages** — Python (primary, 3.10+), TypeScript, JavaScript, C
-
-**Scientific computing** — NumPy · SciPy · pandas · Matplotlib · SymPy · statsmodels · NetworkX
-
-**Formal methods & verification** — Z3 · CVXPY · CasADi · STRIPS/PDDL reachability · property-based and fuzz testing · cryptographic sealing
-
-**AI & agent systems** — Model Context Protocol (MCP) · Model IR · multi-branch reasoning · LLM control layers · fail-closed policy gates
-
-**Front-end & packaging** — React · Node.js · npm and PyPI distribution with provenance attestations
-
-**Quality & CI** — pytest (statement + branch coverage) · mypy `--strict` · ruff · pre-commit · GitHub Actions · codecov · benchmark-regression testing
-
----
-
 ## Public Projects
 
 <table>
@@ -253,7 +219,7 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 </tr>
 </table>
 
-<p align="center"><sub>Live GitHub data, verified through the search API on 16 October 2026. The counts in <em>At a glance</em> cover the whole account, not only these repositories.</sub></p>
+<p align="center"><sub>Live GitHub data, verified through the search API on 16 October 2026.</sub></p>
 <p align="center">
   <strong>Current focus</strong><br>
   scientific computing · mathematical & computational modeling · quantum-inspired AI reasoning · agent verification · reproducible research software
