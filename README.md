@@ -42,7 +42,7 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 ## Open Source Contributions
 
-All 20 merged pull requests in repositories outside this account, highest-starred first:
+All 21 merged pull requests in repositories outside this account, highest-starred first:
 
 <table>
 <tr>
@@ -52,12 +52,12 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/coollabsio/coolify"><code>coollabsio/coolify</code></a></td>
-<td>63k</td>
+<td>63.2k</td>
 <td><a href="https://github.com/coollabsio/coolify/pull/12066">#12066</a> — fix(api): respect service_name query param in application logs endpoint</td>
 </tr>
 <tr>
 <td><a href="https://github.com/pingdotgg/t3code"><code>pingdotgg/t3code</code></a></td>
-<td>27.9k</td>
+<td>28.5k</td>
 <td><a href="https://github.com/pingdotgg/t3code/pull/16838">#16838</a> — fix(server): a directory no longer resolves as the resource monitor binary</td>
 </tr>
 <tr>
@@ -72,12 +72,12 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/Mudlet/Mudlet"><code>Mudlet/Mudlet</code></a></td>
-<td>916</td>
+<td>918</td>
 <td><a href="https://github.com/Mudlet/Mudlet/pull/10780">#10780</a> — fix: keep Lua autocomplete popup from stealing editor focus</td>
 </tr>
 <tr>
 <td><a href="https://github.com/vaadin/web-components"><code>vaadin/web-components</code></a></td>
-<td>584</td>
+<td>583</td>
 <td><a href="https://github.com/vaadin/web-components/pull/13064">#13064</a> — docs: add online IDE reproduction link to bug report template</td>
 </tr>
 <tr>
@@ -87,12 +87,12 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/issuerd/issuerd"><code>issuerd/issuerd</code></a></td>
-<td>51</td>
+<td>59</td>
 <td><a href="https://github.com/issuerd/issuerd/pull/18">#18</a> — test: add proptest suites for issuerd-protocol parsers</td>
 </tr>
 <tr>
 <td><a href="https://github.com/TheVicky1/Pact_OS"><code>TheVicky1/Pact_OS</code></a></td>
-<td>28</td>
+<td>32</td>
 <td><a href="https://github.com/TheVicky1/Pact_OS/pull/554">#554</a> — feat(ui): add animated loading state to data export button</td>
 </tr>
 <tr>
@@ -101,14 +101,14 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 <td><a href="https://github.com/Fristail27/vocab-bloom-hub/pull/598">#598</a> — i18n(pt): review the site interface texts</td>
 </tr>
 <tr>
+<td><a href="https://github.com/nedpals/pwa-karaoke"><code>nedpals/pwa-karaoke</code></a></td>
+<td>13</td>
+<td><a href="https://github.com/nedpals/pwa-karaoke/pull/60">#60</a> — docs: add code of conduct and issue/PR templates</td>
+</tr>
+<tr>
 <td><a href="https://github.com/Movalabs-crew/mova-store"><code>Movalabs-crew/mova-store</code></a></td>
 <td>11</td>
 <td><a href="https://github.com/Movalabs-crew/mova-store/pull/408">#408</a> — Fix/stellar browser uint8array</td>
-</tr>
-<tr>
-<td><a href="https://github.com/nedpals/pwa-karaoke"><code>nedpals/pwa-karaoke</code></a></td>
-<td>8</td>
-<td><a href="https://github.com/nedpals/pwa-karaoke/pull/60">#60</a> — docs: add code of conduct and issue/PR templates</td>
 </tr>
 <tr>
 <td><a href="https://github.com/HafidIdrissi/Time-Tracker"><code>HafidIdrissi/Time-Tracker</code></a></td>
@@ -149,6 +149,11 @@ All 20 merged pull requests in repositories outside this account, highest-starre
 <td><a href="https://github.com/ktrubilo9/edge-proxy"><code>ktrubilo9/edge-proxy</code></a></td>
 <td>0</td>
 <td><a href="https://github.com/ktrubilo9/edge-proxy/pull/65">#65</a> — test: cover public and operational HTTP endpoints</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zhengkaics/opencode"><code>zhengkaics/opencode</code></a></td>
+<td>0</td>
+<td><a href="https://github.com/zhengkaics/opencode/pull/1">#1</a> — fix(app): ignore none-only reasoning variants in tooltip</td>
 </tr>
 </table>
 
