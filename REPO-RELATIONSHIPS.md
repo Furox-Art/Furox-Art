@@ -1,10 +1,11 @@
 # Repository relationships
 
-Ten public repos, one spine. This file exists because the repo names alone do not tell you which
-one to reach for, and because several pairs are easy to mistake for each other: the two `axiomize`
-lines, the two `scientific-computing-system` lines, the two deterministic gates (`plan-auditor` and
-`nomosguard`), the two MCP servers (`scientific-toolkit` and `literature-evidence-mcp`), and
-`eq-layer`, which is frequently read as a truth checker even though it is a dialogue controller.
+The ten repositories this profile is built around share one spine. This file exists because the
+repo names alone do not tell you which one to reach for, and because several pairs are easy to
+mistake for each other: the two `axiomize` lines, the two `scientific-computing-system` lines, the
+two deterministic gates (`plan-auditor` and `nomosguard`), the two MCP servers (`scientific-toolkit`
+and `literature-evidence-mcp`), and `eq-layer`, which is frequently read as a truth checker even
+though it is a dialogue controller.
 
 ## The spine
 
