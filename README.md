@@ -40,6 +40,13 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 ---
 
+### How these repos relate
+
+[`REPO-RELATIONSHIPS.md`](REPO-RELATIONSHIPS.md) draws the spine, says which project to reach for,
+and separates what is canonical from what is an extension, a gateway, or an early-stage experiment.
+
+---
+
 ## Open Source Contributions
 
 All 21 merged pull requests in repositories outside this account, highest-starred first:
