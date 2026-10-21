@@ -50,7 +50,7 @@ and separates what is canonical from what is an extension, a gateway, or an earl
 
 ## Open Source Contributions
 
-All 21 merged pull requests in repositories outside this account, highest-starred first:
+All 22 merged pull requests in repositories outside this account, highest-starred first:
 
 <table>
 <tr>
@@ -60,12 +60,12 @@ All 21 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/coollabsio/coolify"><code>coollabsio/coolify</code></a></td>
-<td>63.2k</td>
+<td>63.3k</td>
 <td><a href="https://github.com/coollabsio/coolify/pull/12066">#12066</a> — fix(api): respect service_name query param in application logs endpoint</td>
 </tr>
 <tr>
 <td><a href="https://github.com/pingdotgg/t3code"><code>pingdotgg/t3code</code></a></td>
-<td>28.5k</td>
+<td>29.0k</td>
 <td><a href="https://github.com/pingdotgg/t3code/pull/16838">#16838</a> — fix(server): a directory no longer resolves as the resource monitor binary</td>
 </tr>
 <tr>
@@ -80,8 +80,13 @@ All 21 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/Mudlet/Mudlet"><code>Mudlet/Mudlet</code></a></td>
-<td>918</td>
+<td>919</td>
 <td><a href="https://github.com/Mudlet/Mudlet/pull/10780">#10780</a> — fix: keep Lua autocomplete popup from stealing editor focus</td>
+</tr>
+<tr>
+<td><a href="https://github.com/HelpCode-ai/anythingmcp"><code>HelpCode-ai/anythingmcp</code></a></td>
+<td>773</td>
+<td><a href="https://github.com/HelpCode-ai/anythingmcp/pull/1177">#1177</a> — feat: show build version and git commit in UI and startup log</td>
 </tr>
 <tr>
 <td><a href="https://github.com/vaadin/web-components"><code>vaadin/web-components</code></a></td>
@@ -95,12 +100,12 @@ All 21 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/issuerd/issuerd"><code>issuerd/issuerd</code></a></td>
-<td>59</td>
+<td>65</td>
 <td><a href="https://github.com/issuerd/issuerd/pull/18">#18</a> — test: add proptest suites for issuerd-protocol parsers</td>
 </tr>
 <tr>
 <td><a href="https://github.com/TheVicky1/Pact_OS"><code>TheVicky1/Pact_OS</code></a></td>
-<td>32</td>
+<td>33</td>
 <td><a href="https://github.com/TheVicky1/Pact_OS/pull/554">#554</a> — feat(ui): add animated loading state to data export button</td>
 </tr>
 <tr>
@@ -115,7 +120,7 @@ All 21 merged pull requests in repositories outside this account, highest-starre
 </tr>
 <tr>
 <td><a href="https://github.com/Movalabs-crew/mova-store"><code>Movalabs-crew/mova-store</code></a></td>
-<td>11</td>
+<td>10</td>
 <td><a href="https://github.com/Movalabs-crew/mova-store/pull/408">#408</a> — Fix/stellar browser uint8array</td>
 </tr>
 <tr>
