@@ -26,19 +26,80 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 
 ## Featured Projects
 
-| Project | ⭐ | Stack | What it does |
-| --- | --- | --- | --- |
-| [**polyglot-python**](https://github.com/Furox-Art/polyglot-python) | <a href="https://github.com/Furox-Art/polyglot-python/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/polyglot-python?style=social" alt="Stars" height="30"></a> | Python · MIT | Write Python in your own language: a deterministic keyword transpiler that maps localized keywords (Turkish, Spanish, Portuguese, German, French, Chinese, Hindi, Arabic) to real Python keywords and hands the result to CPython. No AI, no network, no randomness — same source, locale and version always produce byte-identical Python. Published on PyPI with an npm CLI wrapper; Python 3.12+. **Not a prose-to-code translator; it does not guess intent.** |
-| [**scientific-computing-system**](https://github.com/Furox-Art/scientific-computing-system) | <a href="https://github.com/Furox-Art/scientific-computing-system/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-computing-system?style=social" alt="Stars" height="30"></a> | Python · MIT | Zero-runtime-dependency pure-Python numerical computing: linear algebra, ODE/PDE solvers, Monte Carlo, signal processing, statistics, and uncertainty analysis. Optional NumPy/SciPy backends. Published on PyPI; npm provides a Python CLI launcher, not a separate JavaScript numerical engine. CI and provenance documented. |
-| [**axiomize**](https://github.com/Furox-Art/axiomize) | <a href="https://github.com/Furox-Art/axiomize/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/axiomize?style=social" alt="Stars" height="30"></a> | Python · MIT | Scientific **modeling layer**, distinct from the numerical library: versioned Model IR, mandatory units, dimensional/numerical validation, calibration, uncertainty analysis, and SBML/CellML/Modelica export. Python, CLI, REST, and MCP interfaces; PyPI/npm distributions and documented CI. |
-| [**scientific-computing-system-2.0**](https://github.com/Furox-Art/scientific-computing-system-2.0) | <a href="https://github.com/Furox-Art/scientific-computing-system-2.0/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-computing-system-2.0?style=social" alt="Stars" height="30"></a> | Python · MIT | The **NumPy/SciPy build of scientific-computing-system**, not a separate product. Adds guided fitting, held-out diagnostics, replay manifests and dependency/confidence-interval drift checks, optional compiled C kernels and CuPy GPU execution. Published on PyPI; npm is a Python launcher. Repository documents extensive tests and branch coverage. |
-| [**plan-auditor**](https://github.com/Furox-Art/plan-auditor) | <a href="https://github.com/Furox-Art/plan-auditor/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/plan-auditor?style=social" alt="Stars" height="30"></a> | Python · MIT | Independent, LLM-free behavioral verification of AI agents' work: sealed execution contracts, SHA-256 hash-chained evidence, HMAC-authenticated completion gates, STRIPS/PDDL reachability, and fail-closed PASS / FAIL / UNKNOWN results. Available through PyPI, an npm Python launcher, and a GitHub Action. |
-| [**quantum-reasoning-skill**](https://github.com/Furox-Art/quantum-reasoning-skill) | <a href="https://github.com/Furox-Art/quantum-reasoning-skill/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/quantum-reasoning-skill?style=social" alt="Stars" height="30"></a> | Python · MIT | Model-agnostic Agent Skill for maintaining competing hypotheses, checking evidence, and reviving alternatives. Includes a branch controller and deterministic benchmark harness; distributed through PyPI and npm. **Quantum-inspired, not quantum computing.** Baseline-versus-skill model performance has **not** been established. |
-| [**eq-layer**](https://github.com/Furox-Art/eq-layer) | <a href="https://github.com/Furox-Art/eq-layer/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/eq-layer?style=social" alt="Stars" height="30"></a> | Python · MIT | Early-stage dialogue-control system with affect/intent tracking, Bayesian-risk action routing, conversation repair, policy steering, and structural response audits. Packaged as an Agent Skill for multiple coding-agent ecosystems. Development evaluations are preliminary; it is **not** a factual truth checker. |
-| [**nomosguard**](https://github.com/Furox-Art/nomosguard) | <a href="https://github.com/Furox-Art/nomosguard/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/nomosguard?style=social" alt="Stars" height="30"></a> | Python · Apache-2.0 | Early-stage, deterministic security reasoning: hash-chained evidence ledger, CVE/log ingestion, rule-derived attack paths, and a deny-by-default policy gate. LLMs can explain or propose evidence but cannot decide. Reproducible test/benchmark scenarios and opt-in containment planning are documented; no unattended action by default. |
-| [**literature-evidence-mcp**](https://github.com/Furox-Art/literature-evidence-mcp) | <a href="https://github.com/Furox-Art/literature-evidence-mcp/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/literature-evidence-mcp?style=social" alt="Stars" height="30"></a> | Python · TypeScript · Rust · Go · C++ · Apache-2.0 | **35-tool evidence-provenance MCP**: source/quote audits, independent evidence logs, optional BM25 and offline experimental NLI. Two additional SHA-256-pinned NLI candidates are **explicitly user-selected**; the original model is unchanged. Exploratory HealthVer TEST: FEVER/ANLI DeBERTa-base **48.99% accuracy, 41.67% macro-F1** vs original **46.57%, 38.42%**; SUPPORT recall only **14.01%**. **No clinically validated scientific fact-checking or confirmed superiority.** No npm release. |
-| [**scientific-toolkit**](https://github.com/Furox-Art/scientific-toolkit) | <a href="https://github.com/Furox-Art/scientific-toolkit/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-toolkit?style=social" alt="Stars" height="30"></a> | Python · Apache-2.0 | Provider-neutral MCP gateway connecting **seven independent repositories**, not merging their code. Supports local stdio and bearer-token-authenticated Streamable HTTP; published as a PyPI package. Verified loopback deployment checks cover integration only, **not** scientific correctness or external-client login; OAuth is not configured. |
-| [**axiomize-quantum-skills-2.0**](https://github.com/Furox-Art/axiomize-quantum-skills-2.0) | <a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/axiomize-quantum-skills-2.0?style=social" alt="Stars" height="30"></a> | Python · MIT | The **v2 line of `axiomize`**: the same modeling discipline plus quantum-inspired multi-branch reasoning (score / prune / revive / collapse over candidate solution paths, deterministic under a fixed seed). A separate PyPI distribution, so both install side by side. Expands the benchmark suite from 12 to 29 reports. Maintained in parallel with `axiomize`; it extends that project rather than replacing it. |
+<table>
+  <tr>
+    <th width="180" align="left">Project</th>
+    <th width="115" align="center">⭐</th>
+    <th width="140" align="left">Stack</th>
+    <th align="left">What it does</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/polyglot-python"><strong>polyglot-python</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/polyglot-python/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/polyglot-python?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>A deterministic keyword transpiler: write Python with localized keywords in eight languages — Turkish, Spanish, Portuguese, German, French, Chinese, Hindi, Arabic — and it maps them to real Python and hands the result to CPython. No AI, no network, no randomness. <strong>Not a prose-to-code translator.</strong> PyPI + npm wrapper; Python 3.12+.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/scientific-computing-system"><strong>scientific-computing-system</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/scientific-computing-system/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-computing-system?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>Pure-Python computational science platform with <strong>zero runtime dependencies</strong>: linear algebra, ODE/PDE solvers, Monte Carlo, statistics, signal processing, uncertainty and dimensional analysis, reproducible workflows. Published on PyPI; npm ships a Python CLI launcher, not a JavaScript engine. Python 3.11+.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/axiomize"><strong>axiomize</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/axiomize/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/axiomize?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>The scientific <strong>modeling layer</strong> (the numerical library lives in scientific-computing-system): explicit, versioned Model IR, mandatory units, dimensional/numerical validation, calibration, uncertainty analysis, SBML/CellML/Modelica export. CLI, REST and MCP (<code>axiomize mcp</code>); <code>pip install axiomize</code>.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/scientific-computing-system-2.0"><strong>scientific-computing-system-2.0</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/scientific-computing-system-2.0/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-computing-system-2.0?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>The <strong>NumPy build</strong> of scientific-computing-system — not a separate product: the NumPy/SciPy/pandas/matplotlib line with guided fitting, held-out diagnostics, replay manifests, drift checks, optional compiled C kernels and CuPy GPU execution. PyPI + npm.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/plan-auditor"><strong>plan-auditor</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/plan-auditor/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/plan-auditor?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>Makes an agent's <em>done</em> mean <em>here is the command output that proves it</em>: LLM-free verification with sealed plans, SHA-256 hash-chained evidence, STRIPS/PDDL reachability and a fail-closed PASS / FAIL / UNKNOWN gate. PyPI + npm.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/quantum-reasoning-skill"><strong>quantum-reasoning-skill</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/quantum-reasoning-skill/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/quantum-reasoning-skill?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>Model-agnostic Agent Skill that keeps genuinely different hypotheses alive, tests each against evidence, revives alternatives and collapses to the best-supported answer. <strong>Quantum-inspired metaphor, not quantum computing.</strong> Status: protocol and controller benchmark published; model evaluation pending. PyPI + npm.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/eq-layer"><strong>eq-layer</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/eq-layer/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/eq-layer?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>A control layer that decides how an LLM should speak before it speaks: affect/intent tracking, Bayesian-risk action routing, conversation repair, policy steering. Early stage; evaluations preliminary; <strong>not a factual truth checker.</strong></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/nomosguard"><strong>nomosguard</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/nomosguard/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/nomosguard?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · Apache-2.0</td>
+    <td>Deterministic security reasoning core: <strong>LLMs produce evidence; deterministic machinery decides.</strong> Append-only hash-chained evidence ledger, rule-derived threat/access paths, fail-closed deny-by-default policy gate. Models never cross the decision boundary.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/literature-evidence-mcp"><strong>literature-evidence-mcp</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/literature-evidence-mcp/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/literature-evidence-mcp?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · TypeScript · Rust · Go · C++ · Apache-2.0</td>
+    <td>Scientific literature and evidence-provenance MCP server: multi-provider search, citation and retraction checks, quote verification, evidence logs. v0.5.1 is a bibliographic/traceability and evidence-audit toolset — <strong>not</strong> an automated peer reviewer, meta-analysis engine or scientific truth oracle.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/scientific-toolkit"><strong>scientific-toolkit</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/scientific-toolkit/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/scientific-toolkit?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · Apache-2.0</td>
+    <td>Provider-neutral <strong>MCP gateway for nine existing public repositories</strong>; upstream packages stay independent with their own names and versions. Published on PyPI as scientific-toolkit-mcp; local stdio and Streamable HTTP transports. An integration hub, not a source merge.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0"><strong>axiomize-quantum-skills-2.0</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/axiomize-quantum-skills-2.0?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>Ships <code>axiomize</code> and <code>quantum-reasoning-skill</code> <strong>together</strong> in one package line (1.2.5) — not a separate product and not a second MCP registration. Install this one for both; install the upstream repos when you need only one.</td>
+  </tr>
+</table>
 
 ---
 
