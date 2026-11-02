@@ -1,8 +1,9 @@
 # Repository relationships
 
-The ten repositories this profile is built around share one spine. This file exists because the
-repo names alone do not tell you which one to reach for, and because several pairs are easy to
-mistake for each other: the two `axiomize` lines, the two `scientific-computing-system` lines, the
+The ten core repositories this profile is built around share one scientific-computing spine.
+Adjacent verification tools extend that portfolio without becoming new modeling engines. This
+file exists because the repo names alone do not tell you which one to reach for, and because
+several pairs are easy to mistake for each other: the two `axiomize` lines, the two `scientific-computing-system` lines, the
 two deterministic gates (`plan-auditor` and `nomosguard`), the two MCP servers (`scientific-toolkit`
 and `literature-evidence-mcp`), and `eq-layer`, which is frequently read as a truth checker even
 though it is a dialogue controller.
@@ -24,7 +25,10 @@ though it is a dialogue controller.
                     standalone primitive ------------+
                     (no modeling engine)        quantum-reasoning-skill
 
-        orthogonal axis: agent work verification  ->  plan-auditor
+        orthogonal verification axes:
+          agent execution claims       -> plan-auditor
+          generated-code test evidence -> polyglot-code-guard
+          manuscript reasoning chain  -> scientific-reasoning-auditor
 ```
 
 Around the spine sit two more layers, which are not new engines:
@@ -38,9 +42,12 @@ Around the spine sit two more layers, which are not new engines:
                                           and offline experimental NLI
 
         guardrail axis (deterministic, fail-closed)
-             plan-auditor   -> did the agent do what it claims it did?
-             nomosguard     -> is this security posture safe to act on? deny-by-default gate
-             eq-layer       -> which conversational move comes next? not a truth judgment
+             plan-auditor                 -> did the agent do what it claims it did?
+             polyglot-code-guard          -> did every required language test/build check pass?
+             scientific-reasoning-auditor -> can manuscript claims be traced through evidence,
+                                             methods, assumptions and inferences?
+             nomosguard                   -> is this security posture safe to act on? deny-by-default gate
+             eq-layer                     -> which conversational move comes next? not a truth judgment
 ```
 
 ## Which one do I want?
@@ -52,7 +59,9 @@ Around the spine sit two more layers, which are not new engines:
 | Turn an **idea** into a rigorous model | `axiomize` | not a numerical library |
 | Get the same modeling **plus** branching reasoning | `axiomize-quantum-skills-2.0` | superset of `axiomize` |
 | Just the branching **primitive**, lightweight | `quantum-reasoning-skill` | no modeling engine, no benchmark reports |
-| Verify an **agent's** work with real evidence | `plan-auditor` | orthogonal to everything above |
+| Verify an **agent's execution claims** against a sealed contract | `plan-auditor` | does not run a language test matrix or audit scientific reasoning |
+| Check **generated code** across supported language test/build commands | `polyglot-code-guard` | PASS means configured checks passed, not that the code is correct |
+| Audit a **scientific manuscript's reasoning chain** and recalculate supported Welch summaries | `scientific-reasoning-auditor` | review signals and arithmetic checks, not a scientific truth verdict |
 | Gate an action on **security posture** | `nomosguard` | `plan-auditor` checks agent claims, not CVE and log reasoning |
 | Steer a **conversation** (repair, routing, policy) | `eq-layer` | it chooses moves; it does not judge facts |
 | Put several repos behind **one MCP endpoint** | `scientific-toolkit` | a gateway runs the others, it does not contain them |
@@ -67,7 +76,9 @@ Around the spine sit two more layers, which are not new engines:
 | `quantum-reasoning-skill` | **Active, narrow** | deliberately standalone; overlaps conceptually with the v2 reasoning layer but ships no engine |
 | `scientific-computing-system` | **Active** | the pure-Python original |
 | `scientific-computing-system-2.0` | **Active** | NumPy/SciPy sibling, independently versioned (v5.x) |
-| `plan-auditor` | **Active** | no overlap with the rest; different problem domain |
+| `plan-auditor` | **Active** | verifies agent execution claims against a sealed contract; does not execute the project's test matrix |
+| `polyglot-code-guard` | **Active, cross-language gate** | detects supported project languages and runs configured test/build checks; fail-closed, but not a correctness proof |
+| `scientific-reasoning-auditor` | **Active, research-review layer** | traces manuscript reasoning and checks supported two-group Welch summaries; findings require expert interpretation |
 | `scientific-toolkit` | **Active, integration only** | its deployment checks prove wiring, not scientific correctness; external-client login is not verified and OAuth is not configured |
 | `literature-evidence-mcp` | **Active, exploratory** | the NLI challengers and their measured numbers are exploratory; no clinically validated fact-checking and no confirmed superiority |
 | `nomosguard` | **Early-stage** | reasoning core and gate are deterministic and testable; scenarios are reproducible and containment planning is opt-in, with no unattended action by default |
@@ -113,6 +124,16 @@ paper", that is the evidence server.
 action through Bayesian risk, then audits the response structure. It belongs to the guardrail axis
 because it decides *what to say or do next in a dialogue*, not because it judges whether a claim
 is true. Factual evidence work goes to `literature-evidence-mcp`, `plan-auditor` or `nomosguard`.
+
+## Three distinct verification boundaries
+
+These tools are complementary, not interchangeable:
+
+- **`plan-auditor`** checks whether an agent's claimed actions satisfy a sealed execution contract. It does not run the repository's language-specific test matrix.
+- **`polyglot-code-guard`** detects supported project languages and executes configured test/build commands. It fails closed when required test evidence is missing or a command fails. PASS means those configured checks completed successfully; it is not a proof of correctness, test adequacy or security isolation. Run untrusted projects in a disposable sandbox because the verifier executes their build and test commands.
+- **`scientific-reasoning-auditor`** reviews the claim/evidence/method/assumption/inference chain in a manuscript and independently recalculates supported two-group Welch-test summaries. Findings are review signals, not semantic proof or a scientific verdict.
+
+Choose according to the object being checked: agent execution, executable code, or scientific reasoning in a manuscript.
 
 ## Private research repos
 
