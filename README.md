@@ -64,6 +64,12 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
     <td>Audits scientific-manuscript reasoning with source-linked claim/evidence/method/assumption/inference graphs, review-risk flags, semantic-review templates and reproducibility fingerprints; independently recalculates supported two-group Welch t-tests. Findings are review signals, not scientific verdicts or proof of semantic entailment.</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/Furox-Art/polyglot-code-guard"><strong>polyglot-code-guard</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/polyglot-code-guard/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/polyglot-code-guard?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
+    <td>Python · MIT</td>
+    <td>Fail-closed test gate for AI-generated code: detects Python, Rust, Go, JavaScript/TypeScript, Java, C#, PHP, Ruby, Swift and C/C++ projects, then runs configured test/build commands. Returns PASS only when every required check succeeds. Includes a coding-agent skill and TOML overrides; PASS is test evidence, not proof of correctness.</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/Furox-Art/plan-auditor"><strong>plan-auditor</strong></a></td>
     <td align="center"><a href="https://github.com/Furox-Art/plan-auditor/stargazers"><img src="https://img.shields.io/github/stars/Furox-Art/plan-auditor?style=for-the-badge&amp;logo=github&amp;label=" alt="Stars"/></a></td>
     <td>Python · MIT</td>
