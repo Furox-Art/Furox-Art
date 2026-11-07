@@ -11,6 +11,12 @@
 
 ---
 
+## This repository
+
+This is the GitHub **profile repository** for the `Furox-Art` account, not a software project: it holds the profile README, the [repository relationship map](REPO-RELATIONSHIPS.md), and the banner image above, and it ships no application code. The projects themselves live in the separate repositories linked below.
+
+---
+
 ## About
 
 Independent developer and researcher working across **AI systems** and **scientific computing**, mostly on software where the reasoning is explicit rather than implicit: numerical algorithms you can read end to end, models whose assumptions are written down, and AI agents whose claims are checked by deterministic machinery instead of trust.
@@ -112,6 +118,18 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
     <td>Ships <code>axiomize</code> and <code>quantum-reasoning-skill</code> <strong>together</strong> in one package line (1.2.5) — not a separate product and not a second MCP registration. Install this one for both; install the upstream repos when you need only one.</td>
   </tr>
 </table>
+
+---
+
+## All public repositories
+
+Every project repository owned by this account, grouped by role. The **Featured Projects** table above describes the ten main ones in detail.
+
+- **Scientific computing** — [scientific-computing-system](https://github.com/Furox-Art/scientific-computing-system) · [scientific-computing-system-2.0](https://github.com/Furox-Art/scientific-computing-system-2.0) · [axiomize](https://github.com/Furox-Art/axiomize) · [axiomize-quantum-skills-2.0](https://github.com/Furox-Art/axiomize-quantum-skills-2.0)
+- **Verification, auditing & security** — [plan-auditor](https://github.com/Furox-Art/plan-auditor) · [nomosguard](https://github.com/Furox-Art/nomosguard) · [scientific-reasoning-auditor](https://github.com/Furox-Art/scientific-reasoning-auditor) · [polyglot-code-guard](https://github.com/Furox-Art/polyglot-code-guard)
+- **Agent skills & tooling** — [quantum-reasoning-skill](https://github.com/Furox-Art/quantum-reasoning-skill) · [eq-layer](https://github.com/Furox-Art/eq-layer) · [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) · [scientific-toolkit](https://github.com/Furox-Art/scientific-toolkit) · [repocraft](https://github.com/Furox-Art/repocraft) · [polyglot-python](https://github.com/Furox-Art/polyglot-python)
+
+Full, automatically updated list: [github.com/Furox-Art?tab=repositories](https://github.com/Furox-Art?tab=repositories).
 
 ---
 
@@ -243,3 +261,9 @@ All 22 merged pull requests in repositories outside this account, highest-starre
 <td><a href="https://github.com/zhengkaics/opencode/pull/1">#1</a> — fix(app): ignore none-only reasoning variants in tooltip</td>
 </tr>
 </table>
+
+---
+
+## License
+
+This profile repository is released under the [MIT License](LICENSE) — Copyright (c) 2026 Furox-Art. Each linked project keeps its own license (MIT or Apache-2.0), as shown in the **Featured Projects** table.
