@@ -11,6 +11,12 @@
 
 ---
 
+## This repository
+
+This is the GitHub **profile repository** for the `Furox-Art` account, not a software project: it holds the profile README, the [repository relationship map](REPO-RELATIONSHIPS.md), and the banner image above, and it ships no application code. The projects themselves live in the separate repositories linked below.
+
+---
+
 ## About
 
 Independent developer and researcher working across **AI systems** and **scientific computing**, mostly on software where the reasoning is explicit rather than implicit: numerical algorithms you can read end to end, models whose assumptions are written down, and AI agents whose claims are checked by deterministic machinery instead of trust.
@@ -38,6 +44,18 @@ Everything is built openly and tested: property, fuzz, oracle, cross-platform, a
 | [**literature-evidence-mcp**](https://github.com/Furox-Art/literature-evidence-mcp) | [★ 0](https://github.com/Furox-Art/literature-evidence-mcp/stargazers) | Python · TypeScript · Rust · Go · C++ · Apache-2.0 | **35-tool evidence-provenance MCP**: source/quote audits, independent evidence logs, optional BM25 and offline experimental NLI. Two additional SHA-256-pinned NLI candidates are **explicitly user-selected**; the original model is unchanged. Exploratory HealthVer TEST: FEVER/ANLI DeBERTa-base **48.99% accuracy, 41.67% macro-F1** vs original **46.57%, 38.42%**; SUPPORT recall only **14.01%**. **No clinically validated scientific fact-checking or confirmed superiority.** No npm release. |
 | [**scientific-toolkit**](https://github.com/Furox-Art/scientific-toolkit) | [★ 0](https://github.com/Furox-Art/scientific-toolkit/stargazers) | Python · Apache-2.0 | Provider-neutral MCP gateway connecting **seven independent repositories**, not merging their code. Supports local stdio and bearer-token-authenticated Streamable HTTP; published as a PyPI package. Verified loopback deployment checks cover integration only, **not** scientific correctness or external-client login; OAuth is not configured. |
 | [**axiomize-quantum-skills-2.0**](https://github.com/Furox-Art/axiomize-quantum-skills-2.0) | [★ 0](https://github.com/Furox-Art/axiomize-quantum-skills-2.0/stargazers) | Python · MIT | The **v2 line of `axiomize`**: the same modeling discipline plus quantum-inspired multi-branch reasoning (score / prune / revive / collapse over candidate solution paths, deterministic under a fixed seed). A separate PyPI distribution, so both install side by side. Expands the benchmark suite from 12 to 29 reports. Maintained in parallel with `axiomize`; it extends that project rather than replacing it. |
+
+---
+
+## All public repositories
+
+Every project repository owned by this account, grouped by role. The **Featured Projects** table above describes the ten main ones in detail.
+
+- **Scientific computing** — [scientific-computing-system](https://github.com/Furox-Art/scientific-computing-system) · [scientific-computing-system-2.0](https://github.com/Furox-Art/scientific-computing-system-2.0) · [axiomize](https://github.com/Furox-Art/axiomize) · [axiomize-quantum-skills-2.0](https://github.com/Furox-Art/axiomize-quantum-skills-2.0)
+- **Verification, auditing & security** — [plan-auditor](https://github.com/Furox-Art/plan-auditor) · [nomosguard](https://github.com/Furox-Art/nomosguard) · [scientific-reasoning-auditor](https://github.com/Furox-Art/scientific-reasoning-auditor) · [polyglot-code-guard](https://github.com/Furox-Art/polyglot-code-guard)
+- **Agent skills & tooling** — [quantum-reasoning-skill](https://github.com/Furox-Art/quantum-reasoning-skill) · [eq-layer](https://github.com/Furox-Art/eq-layer) · [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) · [scientific-toolkit](https://github.com/Furox-Art/scientific-toolkit) · [repocraft](https://github.com/Furox-Art/repocraft) · [polyglot-python](https://github.com/Furox-Art/polyglot-python)
+
+Full, automatically updated list: [github.com/Furox-Art?tab=repositories](https://github.com/Furox-Art?tab=repositories).
 
 ---
 
@@ -164,3 +182,9 @@ All 21 merged pull requests in repositories outside this account, highest-starre
 <td><a href="https://github.com/zhengkaics/opencode/pull/1">#1</a> — fix(app): ignore none-only reasoning variants in tooltip</td>
 </tr>
 </table>
+
+---
+
+## License
+
+This profile repository is released under the [MIT License](LICENSE) — Copyright (c) 2026 Furox-Art. Each linked project keeps its own license (MIT or Apache-2.0), as shown in the **Featured Projects** table.
