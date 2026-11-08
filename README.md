@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Furox-Art?style=social" alt="Stars" height="30"/>
+  <img src="assets/stars/total.svg" alt="total stars" height="28"/>
 </p>
 
 ---

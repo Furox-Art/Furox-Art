@@ -36,6 +36,12 @@ SHIELDS_STARS = re.compile(
     r'(?P<owner>[A-Za-z0-9-]+)/(?P<repo>[A-Za-z0-9._-]+)[^"]*"'
     r'\s+alt="(?P<alt>[^"]*)"\s*/?>'
 )
+#: The account-level badge in the header: total stars across the listed projects.
+SHIELDS_TOTAL = re.compile(
+    r'<img src="https://img\.shields\.io/github/stars/(?P<owner>[A-Za-z0-9-]+)\?[^"]*"'
+    r'\s+alt="(?P<alt>[^"]*)"[^>]*/?>'
+)
+TOTAL_BADGE = '<img src="assets/stars/total.svg" alt="total stars" height="28"/>'
 LOCAL_STARS = re.compile(r'<img src="assets/stars/(?P<repo>[A-Za-z0-9._-]+)\.svg"')
 
 FONT = "Verdana,Geneva,DejaVu Sans,sans-serif"
@@ -107,8 +113,17 @@ def check() -> int:
             f"README.md still fetches a star badge from img.shields.io for "
             f"{match.group('repo')}; run scripts/update_star_badges.py"
         )
+    if SHIELDS_TOTAL.search(text):
+        problems.append(
+            "README.md still fetches the account-level star badge from img.shields.io; "
+            "run scripts/update_star_badges.py"
+        )
     referenced = {match.group("repo") for match in LOCAL_STARS.finditer(text)}
+    referenced.discard("total")
     on_disk = {path.stem for path in BADGE_DIR.glob("*.svg")}
+    on_disk.discard("total")
+    if "assets/stars/total.svg" in text and not (BADGE_DIR / "total.svg").is_file():
+        problems.append("README.md links assets/stars/total.svg, which does not exist")
     for repo in sorted(referenced - on_disk):
         problems.append(
             f"README.md links assets/stars/{repo}.svg, which does not exist"
@@ -119,6 +134,7 @@ def check() -> int:
         print(f"FAIL: {problem}")
     if not problems:
         print(f"OK: {len(referenced)} star badges are generated in assets/stars/")
+        print("OK: the header total comes from assets/stars/total.svg")
     return 1 if problems else 0
 
 
@@ -132,18 +148,24 @@ def main(argv: list[str] | None = None) -> int:
 
     text = README.read_text(encoding="utf-8")
     updated, repos = rewrite_readme(text)
+    # The header badge counts the whole portfolio: the sum of the rows below it.
+    updated = SHIELDS_TOTAL.sub(TOTAL_BADGE, updated)
     if not repos:
         repos = sorted(
-            match.group("repo")
-            for match in LOCAL_STARS.finditer(updated)
-            if match.group("repo")
+            {match.group("repo") for match in LOCAL_STARS.finditer(updated)} - {"total"}
         )
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     BADGE_DIR.mkdir(parents=True, exist_ok=True)
+    counts: dict[str, int] = {}
     for repo in repos:
-        count = fetch_stars(repo, token)
-        (BADGE_DIR / f"{repo}.svg").write_text(badge_svg(count), encoding="utf-8")
-        print(f"{repo}: {count}")
+        counts[repo] = fetch_stars(repo, token)
+        (BADGE_DIR / f"{repo}.svg").write_text(
+            badge_svg(counts[repo]), encoding="utf-8"
+        )
+        print(f"{repo}: {counts[repo]}")
+    total = sum(counts.values())
+    (BADGE_DIR / "total.svg").write_text(badge_svg(total), encoding="utf-8")
+    print(f"total: {total}")
     if updated != text:
         README.write_text(updated, encoding="utf-8")
         print("README.md rewritten to use the local badges")
