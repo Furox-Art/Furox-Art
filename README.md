@@ -11,12 +11,6 @@
 
 ---
 
-## This repository
-
-This is the GitHub **profile repository** for the `Furox-Art` account, not a software project: it holds the profile README, the [repository relationship map](REPO-RELATIONSHIPS.md), and the banner image above, and it ships no application code. The projects themselves live in the separate repositories linked below.
-
----
-
 ## About
 
 Independent developer and researcher working across **AI systems** and **scientific computing**, mostly on software where the reasoning is explicit rather than implicit: numerical algorithms you can read end to end, models whose assumptions are written down, and AI agents whose claims are checked by deterministic machinery instead of trust.
