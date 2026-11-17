@@ -111,7 +111,7 @@ The star counts below are generated into [`assets/stars/`](assets/stars) by [`sc
     <td><a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0"><strong>axiomize-quantum-skills-2.0</strong></a></td>
     <td align="center"><a href="https://github.com/Furox-Art/axiomize-quantum-skills-2.0/stargazers"><img src="assets/stars/axiomize-quantum-skills-2.0.svg" alt="axiomize-quantum-skills-2.0 stars"/></a></td>
     <td>Python · MIT</td>
-    <td>Ships <code>axiomize</code> and <code>quantum-reasoning-skill</code> <strong>together</strong> in one package line (1.2.5) — not a separate product and not a second MCP registration. Install this one for both; install the upstream repos when you need only one.</td>
+    <td>Ships <code>axiomize</code> and <code>quantum-reasoning-skill</code> <strong>together</strong> in one package line — not a separate product and not a second MCP registration. Install this one for both; install the upstream repos when you need only one.</td>
   </tr>
 </table>
 
@@ -119,7 +119,7 @@ The star counts below are generated into [`assets/stars/`](assets/stars) by [`sc
 
 ## All public repositories
 
-Every project repository owned by this account, grouped by role. The **Featured Projects** table above describes the ten main ones in detail.
+Every project repository owned by this account, grouped by role. The **Featured Projects** table above describes the main ones in detail.
 
 - **Scientific computing** — [scientific-computing-system](https://github.com/Furox-Art/scientific-computing-system) · [scientific-computing-system-2.0](https://github.com/Furox-Art/scientific-computing-system-2.0) · [axiomize](https://github.com/Furox-Art/axiomize) · [axiomize-quantum-skills-2.0](https://github.com/Furox-Art/axiomize-quantum-skills-2.0)
 - **Verification, auditing & security** — [plan-auditor](https://github.com/Furox-Art/plan-auditor) · [nomosguard](https://github.com/Furox-Art/nomosguard) · [scientific-reasoning-auditor](https://github.com/Furox-Art/scientific-reasoning-auditor) · [polyglot-code-guard](https://github.com/Furox-Art/polyglot-code-guard)

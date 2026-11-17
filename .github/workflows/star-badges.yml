@@ -15,20 +15,38 @@ on:
     paths:
       - "README.md"
       - "scripts/update_star_badges.py"
+  pull_request:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/update_star_badges.py"
+      - "assets/stars/**"
 
 permissions:
   contents: read
 
 concurrency:
-  group: star-badges
+  group: star-badges-${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
   cancel-in-progress: false
 
 jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    name: Verify star badges are self-hosted
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Verify no row fetches a badge from outside the repository
+        run: python3 scripts/update_star_badges.py --check
+
   refresh:
+    if: github.event_name != 'pull_request'
     name: Regenerate the badges
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
@@ -40,15 +58,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_star_badges.py
 
-      - name: Commit the badges when the counts moved
+      - name: Open or update a pull request when the counts moved
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          if git diff --quiet -- README.md assets/stars; then
+          if [ -z "$(git status --porcelain -- README.md assets/stars)" ]; then
             echo "no change"
             exit 0
           fi
+          branch="chore/refresh-star-badges"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
           git add README.md assets/stars
           git commit -m "chore: refresh the generated star badges"
-          git push
+          git push --force-with-lease origin "HEAD:refs/heads/$branch"
+          existing="$(gh pr list --head "$branch" --base main --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$existing" ]; then
+            gh pr create \
+              --base main \
+              --head "$branch" \
+              --title "chore: refresh the generated star badges" \
+              --body "Automated star badge refresh from \`.github/workflows/star-badges.yml\`."
+          else
+            echo "updated existing PR #$existing"
+          fi
