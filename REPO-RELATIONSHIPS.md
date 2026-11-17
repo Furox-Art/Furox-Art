@@ -37,7 +37,7 @@ Around the spine sit two more layers, which are not new engines:
         MCP surface (integration and provenance)
              scientific-toolkit        -> one endpoint in front of several repos,
                                           local stdio + bearer-token Streamable HTTP
-             literature-evidence-mcp   -> 32-tool evidence provenance: source and quote
+             literature-evidence-mcp   -> 35-tool evidence provenance: source and quote
                                           audits, independent evidence logs, optional BM25
                                           and offline experimental NLI
 
@@ -66,6 +66,8 @@ Around the spine sit two more layers, which are not new engines:
 | Steer a **conversation** (repair, routing, policy) | `eq-layer` | it chooses moves; it does not judge facts |
 | Put several repos behind **one MCP endpoint** | `scientific-toolkit` | a gateway runs the others, it does not contain them |
 | Trace a **claim back to a quote** in the literature | `literature-evidence-mcp` | evidence provenance, not modeling or numerics |
+| Scaffold a **byte-identical Python project** from a spec | `repocraft` | deterministic project/snippet generator, not a verification gate |
+| Write Python with **localized keywords** (8 languages) | `polyglot-python` | deterministic keyword transpiler to CPython, not prose-to-code AI |
 
 ## Active vs. early-stage
 
@@ -83,6 +85,8 @@ Around the spine sit two more layers, which are not new engines:
 | `literature-evidence-mcp` | **Active, exploratory** | the NLI challengers and their measured numbers are exploratory; no clinically validated fact-checking and no confirmed superiority |
 | `nomosguard` | **Early-stage** | reasoning core and gate are deterministic and testable; scenarios are reproducible and containment planning is opt-in, with no unattended action by default |
 | `eq-layer` | **Early-stage** | development evaluations are preliminary; explicitly **not** a factual truth checker |
+| `repocraft` | **Active, tooling** | deterministic project and snippet scaffolding with optional validated AI intent/craft modes |
+| `polyglot-python` | **Active, tooling** | deterministic Python 3.12+ keyword transpiler across eight languages |
 
 Nothing here is archived. Where two repos overlap, the newer one is an extension, not a
 replacement — `axiomize` remains the v1 reference and `quantum-reasoning-skill` stays a
@@ -93,7 +97,8 @@ deliberately small standalone.
 **`axiomize` vs `axiomize-quantum-skills-2.0`.** Same 15 perspective lenses and the same
 8-phase report structure. v2 adds a quantum-inspired reasoning layer (score / prune / revive /
 collapse over branches) and expands the benchmark suite from 12 to 29 reports. Different PyPI
-distributions, so both can be installed side by side.
+distributions, though both install the `axiomize` module and CLI entry points — use separate
+virtual environments when keeping both on one machine.
 
 **`axiomize-quantum-skills-2.0` vs `quantum-reasoning-skill`.** Both do multi-branch
 reasoning. The 2.0 repo bundles it inside the full modeling engine; `quantum-reasoning-skill`
@@ -115,7 +120,7 @@ behaviour is not assessment of risk.
 **`scientific-toolkit` vs `literature-evidence-mcp`.** Both speak MCP, and neither is a new
 compute engine. The toolkit is a *gateway*: provider-neutral wiring that puts several of these
 repositories behind one endpoint over local stdio or bearer-token-authenticated Streamable HTTP,
-without merging their code. `literature-evidence-mcp` is a *tool*: a 32-server surface of
+without merging their code. `literature-evidence-mcp` is a *tool*: a 35-tool surface of
 evidence-provenance operations over sources, quotes and independent logs. If you are asking "how
 do I reach the repos", that is the gateway; if you are asking "is this sentence supported by that
 paper", that is the evidence server.
