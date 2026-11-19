@@ -67,7 +67,7 @@ Around the spine sit two more layers, which are not new engines:
 | Put several repos behind **one MCP endpoint** | `scientific-toolkit` | a gateway runs the others, it does not contain them |
 | Trace a **claim back to a quote** in the literature | `literature-evidence-mcp` | evidence provenance, not modeling or numerics |
 | Scaffold a **byte-identical Python project** from a spec | `repocraft` | deterministic project/snippet generator, not a verification gate |
-| Write Python with **localized keywords** (8 languages) | `polyglot-python` | deterministic keyword transpiler to CPython, not prose-to-code AI |
+| Write Python with **localized keywords** (20 locales) | `polyglot-python` | deterministic keyword transpiler to CPython, not prose-to-code AI |
 
 ## Active vs. early-stage
 
@@ -86,7 +86,7 @@ Around the spine sit two more layers, which are not new engines:
 | `nomosguard` | **Early-stage** | reasoning core and gate are deterministic and testable; scenarios are reproducible and containment planning is opt-in, with no unattended action by default |
 | `eq-layer` | **Early-stage** | development evaluations are preliminary; explicitly **not** a factual truth checker |
 | `repocraft` | **Active, tooling** | deterministic project and snippet scaffolding with optional validated AI intent/craft modes |
-| `polyglot-python` | **Active, tooling** | deterministic Python 3.12+ keyword transpiler across eight languages |
+| `polyglot-python` | **Active, tooling** | deterministic Python 3.12+ keyword transpiler across 20 locales |
 
 Nothing here is archived. Where two repos overlap, the newer one is an extension, not a
 replacement — `axiomize` remains the v1 reference and `quantum-reasoning-skill` stays a
