@@ -1,86 +1,66 @@
 name: Star badges
 
-# The star column in README.md used to point at img.shields.io. Shields answers
-# 429 when it is busy, GitHub's image proxy caches that answer, and those cells
-# then render as the bare alt text while their neighbours render fine -- the
-# table looked randomly broken. The badges are generated into assets/stars/
-# instead, so opening the page fetches nothing from a third party.
 on:
   schedule:
-    # Daily, off the hour so it does not race the other schedules.
-    - cron: "23 4 * * *"
+    - cron: "23 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - "README.md"
       - "scripts/update_star_badges.py"
+      - ".github/workflows/star-badges.yml"
   pull_request:
     branches: [main]
     paths:
       - "README.md"
       - "scripts/update_star_badges.py"
+      - ".github/workflows/star-badges.yml"
       - "assets/stars/**"
 
 permissions:
   contents: read
 
 concurrency:
-  group: star-badges-${{ github.event_name == 'pull_request' && github.head_ref || 'main' }}
+  group: star-badges-${{ github.event_name == 'pull_request' && github.head_ref || 'live' }}
   cancel-in-progress: false
 
 jobs:
   check:
     if: github.event_name == 'pull_request'
-    name: Verify star badges are self-hosted
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-
-      - name: Verify no row fetches a badge from outside the repository
-        run: python3 scripts/update_star_badges.py --check
+      - run: python3 scripts/update_star_badges.py --check
 
   refresh:
     if: github.event_name != 'pull_request'
-    name: Regenerate the badges
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-
-      - name: Verify no row fetches a badge from outside the repository
-        run: python3 scripts/update_star_badges.py --check
-
-      - name: Refresh the counts from the GitHub API
+      - name: Refresh badges
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/update_star_badges.py
-
-      - name: Open or update a pull request when the counts moved
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
-          if [ -z "$(git status --porcelain -- README.md assets/stars)" ]; then
-            echo "no change"
-            exit 0
-          fi
-          branch="chore/refresh-star-badges"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B "$branch"
-          git add README.md assets/stars
-          git commit -m "chore: refresh the generated star badges"
-          git push --force-with-lease origin "HEAD:refs/heads/$branch"
-          existing="$(gh pr list --head "$branch" --base main --state open --json number --jq '.[0].number // empty')"
-          if [ -z "$existing" ]; then
-            gh pr create \
-              --base main \
-              --head "$branch" \
-              --title "chore: refresh the generated star badges" \
-              --body "Automated star badge refresh from \`.github/workflows/star-badges.yml\`."
-          else
-            echo "updated existing PR #$existing"
-          fi
+          python3 scripts/update_star_badges.py
+          python3 scripts/update_star_badges.py --check
+          mkdir -p site/assets/stars
+          cp assets/stars/*.svg site/assets/stars/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  publish:
+    if: github.event_name != 'pull_request'
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish badges
+        id: deployment
+        uses: actions/deploy-pages@v4

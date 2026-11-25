@@ -8,12 +8,12 @@ their neighbours looked fine, with no difference in the markup to explain it.
 
 These badges are generated here instead: one SVG per repository under
 ``assets/stars/``, refreshed by ``.github/workflows/star-badges.yml`` from the
-GitHub API. Nothing external is fetched when a reader opens the page, so the
-column cannot half-render.
+GitHub API. The README reads the badges from the GitHub Pages deployment.
+Refreshes do not need a pull request into the protected main branch.
 
 Usage:
     python scripts/update_star_badges.py            # refresh counts and rewrite README
-    python scripts/update_star_badges.py --check    # verify the README is self-hosted
+    python scripts/update_star_badges.py --check    # verify badge references and files
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ SHIELDS_TOTAL = re.compile(
     r'\s+alt="(?P<alt>[^"]*)"[^>]*/?>'
 )
 TOTAL_BADGE = '<img src="assets/stars/total.svg" alt="total stars" height="28"/>'
-LOCAL_STARS = re.compile(r'<img src="assets/stars/(?P<repo>[A-Za-z0-9._-]+)\.svg"')
+LOCAL_STARS = re.compile(r'<img src="(?:https://furox-art\.github\.io/Furox-Art/)?assets/stars/(?P<repo>[A-Za-z0-9._-]+)\.svg"')
 
 FONT = "Verdana,Geneva,DejaVu Sans,sans-serif"
 
@@ -74,7 +74,7 @@ def badge_svg(count: int) -> str:
 
 
 def fetch_stars(repo: str, token: str | None) -> int:
-    """Star count for ``OWNER/repo``, or 0 when the API cannot answer."""
+    """Star count for ``OWNER/repo``; fail without publishing on API errors."""
     request = urllib.request.Request(
         f"https://api.github.com/repos/{OWNER}/{repo}",
         headers={
@@ -88,7 +88,7 @@ def fetch_stars(repo: str, token: str | None) -> int:
             return int(json.loads(response.read().decode("utf-8"))["stargazers_count"])
     except Exception as error:  # noqa: BLE001 - a badge must never break the build
         print(f"WARN: could not read stars for {repo}: {error}", file=sys.stderr)
-        return 0
+        raise
 
 
 def rewrite_readme(text: str) -> tuple[str, list[str]]:
@@ -134,7 +134,7 @@ def check() -> int:
         print(f"FAIL: {problem}")
     if not problems:
         print(f"OK: {len(referenced)} star badges are generated in assets/stars/")
-        print("OK: the header total comes from assets/stars/total.svg")
+        print("OK: total badge is present")
     return 1 if problems else 0
 
 
@@ -159,6 +159,7 @@ def main(argv: list[str] | None = None) -> int:
     counts: dict[str, int] = {}
     for repo in repos:
         counts[repo] = fetch_stars(repo, token)
+    for repo in repos:
         (BADGE_DIR / f"{repo}.svg").write_text(
             badge_svg(counts[repo]), encoding="utf-8"
         )
