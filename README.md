@@ -1,4 +1,4 @@
-# Furox-Art
+<img src="assets/profile-banner.svg" width="100%" alt="Furox"/>
 
 I'm an independent researcher and developer. I work on numerical computing, scientific models and tools for checking AI output.
 
