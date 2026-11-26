@@ -2,7 +2,7 @@
 
 I'm an independent researcher and developer. I work on numerical computing, scientific models and tools for checking AI output.
 
-<img src="https://furox-art.github.io/Furox-Art/assets/stars/total.svg" alt="total stars" height="28"/>
+<img src="https://furox-art.github.io/Furox-Art/assets/stars/total.svg?v=2" alt="total stars" height="28"/>
 
 ## Projects
 
