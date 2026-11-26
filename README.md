@@ -1,4 +1,4 @@
-﻿<img src="assets/profile-banner.svg" width="100%" alt="Furox ÔÇö Scientific computing, mathematical modeling, AI reasoning and verification"/>
+<img src="assets/profile-banner.svg" width="100%" alt="Furox ÔÇö Scientific computing, mathematical modeling, AI reasoning and verification"/>
 
 <p align="center">
   <strong>Independent researcher & developer building rigorous, auditable systems for scientific computing, mathematical modeling, AI reasoning, and verification.</strong><br>
@@ -96,8 +96,8 @@ The star counts below are generated into [`assets/stars/`](assets/stars) by [`sc
     <td>A control layer that decides how an LLM should speak before it speaks: affect/intent tracking, Bayesian-risk action routing, conversation repair, policy steering. Early stage; evaluations preliminary; <strong>not a factual truth checker.</strong></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Furox-Art/evidence-ledger-policy-gate"><strong>nomosguard</strong></a></td>
-    <td align="center"><a href="https://github.com/Furox-Art/evidence-ledger-policy-gate/stargazers"><img src="assets/stars/nomosguard.svg" alt="nomosguard stars"/></a></td>
+    <td><a href="https://github.com/Furox-Art/evidence-ledger-policy-gate"><strong>evidence-ledger-policy-gate</strong></a></td>
+    <td align="center"><a href="https://github.com/Furox-Art/evidence-ledger-policy-gate/stargazers"><img src="assets/stars/evidence-ledger-policy-gate.svg" alt="evidence-ledger-policy-gate stars"/></a></td>
     <td>Python ┬À Apache-2.0</td>
     <td>Deterministic security reasoning core: <strong>LLMs produce evidence; deterministic machinery decides.</strong> Append-only hash-chained evidence ledger, rule-derived threat/access paths, fail-closed deny-by-default policy gate. Models never cross the decision boundary.</td>
   </tr>
@@ -128,8 +128,8 @@ The star counts below are generated into [`assets/stars/`](assets/stars) by [`sc
 Every project repository owned by this account, grouped by role. The **Featured Projects** table above describes the ten main ones in detail.
 
 - **Scientific computing** ÔÇö [scientific-computing-system](https://github.com/Furox-Art/scientific-computing-system) ┬À [scientific-computing-system-2.0](https://github.com/Furox-Art/scientific-computing-system-2.0) ┬À [axiomize](https://github.com/Furox-Art/axiomize) ┬À [axiomize-quantum-skills-2.0](https://github.com/Furox-Art/axiomize-quantum-skills-2.0)
-- **Verification, auditing & security** ÔÇö [plan-auditor](https://github.com/Furox-Art/plan-auditor) ┬À [nomosguard](https://github.com/Furox-Art/evidence-ledger-policy-gate) ┬À [scientific-reasoning-auditor](https://github.com/Furox-Art/scientific-reasoning-auditor) ┬À [polyglot-code-guard](https://github.com/Furox-Art/polyglot-code-guard)
-- **Agent skills & tooling** ÔÇö [quantum-reasoning-skill](https://github.com/Furox-Art/quantum-reasoning-skill) ┬À [eq-layer](https://github.com/Furox-Art/eq-layer) ┬À [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) ┬À [scientific-toolkit](https://github.com/Furox-Art/scientific-toolkit) ┬À [repocraft](https://github.com/Furox-Art/deterministic-recipe-scaffolder) ┬À [polyglot-python](https://github.com/Furox-Art/polyglot-python)
+- **Verification, auditing & security** ÔÇö [plan-auditor](https://github.com/Furox-Art/plan-auditor) ┬À [evidence-ledger-policy-gate](https://github.com/Furox-Art/evidence-ledger-policy-gate) ┬À [scientific-reasoning-auditor](https://github.com/Furox-Art/scientific-reasoning-auditor) ┬À [polyglot-code-guard](https://github.com/Furox-Art/polyglot-code-guard)
+- **Agent skills & tooling** ÔÇö [quantum-reasoning-skill](https://github.com/Furox-Art/quantum-reasoning-skill) ┬À [eq-layer](https://github.com/Furox-Art/eq-layer) ┬À [literature-evidence-mcp](https://github.com/Furox-Art/literature-evidence-mcp) ┬À [scientific-toolkit](https://github.com/Furox-Art/scientific-toolkit) ┬À [deterministic-recipe-scaffolder](https://github.com/Furox-Art/deterministic-recipe-scaffolder) ┬À [polyglot-python](https://github.com/Furox-Art/polyglot-python)
 
 Full, automatically updated list: [github.com/Furox-Art?tab=repositories](https://github.com/Furox-Art?tab=repositories).
 

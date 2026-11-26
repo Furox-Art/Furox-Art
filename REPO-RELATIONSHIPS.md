@@ -4,7 +4,7 @@ The ten core repositories this profile is built around share one scientific-comp
 Adjacent verification tools extend that portfolio without becoming new modeling engines. This
 file exists because the repo names alone do not tell you which one to reach for, and because
 several pairs are easy to mistake for each other: the two `axiomize` lines, the two `scientific-computing-system` lines, the
-two deterministic gates (`plan-auditor` and `nomosguard`), the two MCP servers (`scientific-toolkit`
+two deterministic gates (`plan-auditor` and `evidence-ledger-policy-gate`), the two MCP servers (`scientific-toolkit`
 and `literature-evidence-mcp`), and `eq-layer`, which is frequently read as a truth checker even
 though it is a dialogue controller.
 
@@ -46,7 +46,7 @@ Around the spine sit two more layers, which are not new engines:
              polyglot-code-guard          -> did every required language test/build check pass?
              scientific-reasoning-auditor -> can manuscript claims be traced through evidence,
                                              methods, assumptions and inferences?
-             nomosguard                   -> is this security posture safe to act on? deny-by-default gate
+             evidence-ledger-policy-gate                   -> is this security posture safe to act on? deny-by-default gate
              eq-layer                     -> which conversational move comes next? not a truth judgment
 ```
 
@@ -62,11 +62,11 @@ Around the spine sit two more layers, which are not new engines:
 | Verify an **agent's execution claims** against a sealed contract | `plan-auditor` | does not run a language test matrix or audit scientific reasoning |
 | Check **generated code** across supported language test/build commands | `polyglot-code-guard` | PASS means configured checks passed, not that the code is correct |
 | Audit a **scientific manuscript's reasoning chain** and recalculate supported Welch summaries | `scientific-reasoning-auditor` | review signals and arithmetic checks, not a scientific truth verdict |
-| Gate an action on **security posture** | `nomosguard` | `plan-auditor` checks agent claims, not CVE and log reasoning |
+| Gate an action on **security posture** | `evidence-ledger-policy-gate` | `plan-auditor` checks agent claims, not CVE and log reasoning |
 | Steer a **conversation** (repair, routing, policy) | `eq-layer` | it chooses moves; it does not judge facts |
 | Put several repos behind **one MCP endpoint** | `scientific-toolkit` | a gateway runs the others, it does not contain them |
 | Trace a **claim back to a quote** in the literature | `literature-evidence-mcp` | evidence provenance, not modeling or numerics |
-| Scaffold a **byte-identical Python project** from a spec | `repocraft` | deterministic project/snippet generator, not a verification gate |
+| Scaffold a **byte-identical Python project** from a spec | `deterministic-recipe-scaffolder` | deterministic project/snippet generator, not a verification gate |
 | Write Python with **localized keywords** (20 locales) | `polyglot-python` | deterministic keyword transpiler to CPython, not prose-to-code AI |
 
 ## Active vs. early-stage
@@ -83,9 +83,9 @@ Around the spine sit two more layers, which are not new engines:
 | `scientific-reasoning-auditor` | **Active, research-review layer** | traces manuscript reasoning and checks supported two-group Welch summaries; findings require expert interpretation |
 | `scientific-toolkit` | **Active, integration only** | its deployment checks prove wiring, not scientific correctness; external-client login is not verified and OAuth is not configured |
 | `literature-evidence-mcp` | **Active, exploratory** | the NLI challengers and their measured numbers are exploratory; no clinically validated fact-checking and no confirmed superiority |
-| `nomosguard` | **Early-stage** | reasoning core and gate are deterministic and testable; scenarios are reproducible and containment planning is opt-in, with no unattended action by default |
+| `evidence-ledger-policy-gate` | **Early-stage** | reasoning core and gate are deterministic and testable; scenarios are reproducible and containment planning is opt-in, with no unattended action by default |
 | `eq-layer` | **Early-stage** | development evaluations are preliminary; explicitly **not** a factual truth checker |
-| `repocraft` | **Active, tooling** | deterministic project and snippet scaffolding with optional validated AI intent/craft modes |
+| `deterministic-recipe-scaffolder` | **Active, tooling** | deterministic project and snippet scaffolding with optional validated AI intent/craft modes |
 | `polyglot-python` | **Active, tooling** | deterministic Python 3.12+ keyword transpiler across 20 locales |
 
 Nothing here is archived. Where two repos overlap, the newer one is an extension, not a
@@ -110,10 +110,10 @@ engineering tradeoff. The first is zero-runtime-dependency pure Python that you 
 end to end. The second is the NumPy/SciPy/pandas rebuild for speed. Independent version lines
 (2.x vs 5.x) — not a v1/v2 pair despite the names.
 
-**`plan-auditor` vs `nomosguard`.** Both are deterministic, both keep a hash-chained evidence
+**`plan-auditor` vs `evidence-ledger-policy-gate`.** Both are deterministic, both keep a hash-chained evidence
 ledger, and in both an LLM may explain evidence but never crosses the decision boundary. They
 answer different questions: `plan-auditor` takes a sealed execution contract and returns
-PASS / FAIL / UNKNOWN about work an agent claims to have done; `nomosguard` ingests CVE and log
+PASS / FAIL / UNKNOWN about work an agent claims to have done; `evidence-ledger-policy-gate` ingests CVE and log
 evidence, derives attack paths, and returns a deny-by-default policy verdict. Verification of
 behaviour is not assessment of risk.
 
@@ -128,7 +128,7 @@ paper", that is the evidence server.
 **`eq-layer` vs the verification repos.** `eq-layer` tracks affect and intent and routes the next
 action through Bayesian risk, then audits the response structure. It belongs to the guardrail axis
 because it decides *what to say or do next in a dialogue*, not because it judges whether a claim
-is true. Factual evidence work goes to `literature-evidence-mcp`, `plan-auditor` or `nomosguard`.
+is true. Factual evidence work goes to `literature-evidence-mcp`, `plan-auditor` or `evidence-ledger-policy-gate`.
 
 ## Three distinct verification boundaries
 
