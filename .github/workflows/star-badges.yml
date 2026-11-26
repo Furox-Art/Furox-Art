@@ -2,7 +2,7 @@ name: Star badges
 
 on:
   schedule:
-    - cron: "23 * * * *"
+    - cron: "4/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
