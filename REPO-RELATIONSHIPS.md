@@ -46,7 +46,7 @@ Around the spine sit two more layers, which are not new engines:
              polyglot-code-guard          -> did every required language test/build check pass?
              scientific-reasoning-auditor -> can manuscript claims be traced through evidence,
                                              methods, assumptions and inferences?
-             evidence-ledger-policy-gate -> is this security posture safe to act on? deny-by-default gate
+             evidence-ledger-policy-gate  -> is this security posture safe to act on? deny-by-default gate
              eq-layer                     -> which conversational move comes next? not a truth judgment
 ```
 
