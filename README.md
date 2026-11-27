@@ -4,11 +4,13 @@ I'm an independent researcher and developer. I work on numerical computing, scie
 
 <img src="https://furox-art.github.io/Furox-Art/assets/stars/total.svg?v=2" alt="total stars" height="28"/>
 
+<a href="https://www.npmjs.com/package/sci-agent"><img src="https://img.shields.io/npm/v/sci-agent.svg" alt="Sci-Agent on npm" height="28"/></a>
+
 ## Projects
 
 | Project | Stars | Stack / License | Description |
 | --- | :---: | --- | --- |
-| [sci-agent](https://github.com/Furox-Art/sci-agent) | <a href="https://github.com/Furox-Art/sci-agent/stargazers"><img src="https://furox-art.github.io/Furox-Art/assets/stars/sci-agent.svg" alt="sci-agent stars"/></a> | Node.js · JavaScript · MIT OR Apache-2.0 | Terminal scientific research and coding agent with 53 tools, evidence-linked claims, local models, and optional execution isolation. |
+| [Sci-Agent](https://github.com/Furox-Art/Sci-Agent) | <a href="https://github.com/Furox-Art/Sci-Agent/stargazers"><img src="https://furox-art.github.io/Furox-Art/assets/stars/sci-agent.svg" alt="sci-agent stars"/></a> | Node.js · JavaScript · MIT OR Apache-2.0 · [npm](https://www.npmjs.com/package/sci-agent) | Terminal scientific research and coding agent with 53 tools, evidence-linked claims, local models, and optional execution isolation. |
 | [polyglot-python](https://github.com/Furox-Art/polyglot-python) | <a href="https://github.com/Furox-Art/polyglot-python/stargazers"><img src="https://furox-art.github.io/Furox-Art/assets/stars/polyglot-python.svg" alt="polyglot-python stars"/></a> | Python · MIT | Python keywords in 20 languages, translated to standard Python without AI. |
 | [scientific-computing-system](https://github.com/Furox-Art/scientific-computing-system) | <a href="https://github.com/Furox-Art/scientific-computing-system/stargazers"><img src="https://furox-art.github.io/Furox-Art/assets/stars/scientific-computing-system.svg" alt="scientific-computing-system stars"/></a> | Python · MIT | Numerical computing in pure Python, with no runtime dependencies. |
 | [axiomize](https://github.com/Furox-Art/axiomize) | <a href="https://github.com/Furox-Art/axiomize/stargazers"><img src="https://furox-art.github.io/Furox-Art/assets/stars/axiomize.svg" alt="axiomize stars"/></a> | Python · MIT | Scientific modeling, unit checks, calibration and uncertainty analysis. CLI, REST and MCP. |
